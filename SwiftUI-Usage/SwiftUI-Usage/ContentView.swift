@@ -14,11 +14,15 @@ struct ContentView: View {
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.red]
     }
     
+    let viewModel = ContentViewModel()
+    
     var body: some View {
         NavigationView {
             
-            List{
-                Text("First Commit")
+            List(viewModel.modelArray){ model in
+                NavigationLink(destination: model.nextView) {
+                    Text(model.title)
+                }                
             }.navigationBarTitle(Text("Demo")
                 , displayMode: .inline)
             
