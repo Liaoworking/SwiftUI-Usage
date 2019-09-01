@@ -9,11 +9,13 @@
 import Foundation
 import SwiftUI
 struct ContentViewModel {
-    let modelArray: [ListModel] = [ListModel(title: "UILabel -> Text", nextView: AnyView( TextView() ))]
+    let modelArray = [ListModel(id: 0,title: "UILabel -> Text", nextView: AnyView( TextView() )),
+                    ListModel(id: 1, title: "UIImage -> Image", nextView: AnyView( ImageView() )),
+                    ListModel(id: 2, title: "UIbutton -> Button", nextView: AnyView( ButtonView() ))]
 }
 
 struct ListModel: Identifiable {
-    var id: UUID?
+    var id: Int
     var title: String
     var nextView: AnyView
     
