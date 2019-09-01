@@ -66,7 +66,7 @@ struct ButtonView: View {
                       Text("read it")
                           .fontWeight(.semibold)
                           .font(.title)
-                   }
+                  }.padding([.top,.bottom], 5)
                   .frame(minWidth: 0, maxWidth: .infinity)
                   .foregroundColor(.white)
                   .background(
@@ -76,7 +76,8 @@ struct ButtonView: View {
                            startPoint: .leading,
                            endPoint: .trailing)
                   )
-                  .cornerRadius(40)
+                .cornerRadius(20)
+                    .padding([.leading,.trailing])
                }
         }
     }
