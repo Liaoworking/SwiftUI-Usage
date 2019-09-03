@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		212B6AD4231C11610013AD90 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonView.swift */; };
+		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
 		213E9B2A231BD60D00CD2E4C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E9B29231BD60D00CD2E4C /* ImageView.swift */; };
 		21E8523823158F140093BCDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E8523723158F140093BCDF /* AppDelegate.swift */; };
 		21E8523A23158F140093BCDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E8523923158F140093BCDF /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		212B6AD3231C11610013AD90 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
 		213E9B29231BD60D00CD2E4C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		21E8523423158F140093BCDF /* SwiftUI-Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E8523723158F140093BCDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				21E8524E2316D0CA0093BCDF /* TextView.swift */,
 				213E9B29231BD60D00CD2E4C /* ImageView.swift */,
 				212B6AD3231C11610013AD90 /* ButtonView.swift */,
+				212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */,
 			);
 			path = UsageView;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				21E8524F2316D0CA0093BCDF /* TextView.swift in Sources */,
+				212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */,
 				21E8523A23158F140093BCDF /* SceneDelegate.swift in Sources */,
 				21E8523C23158F140093BCDF /* ContentView.swift in Sources */,
 				212B6AD4231C11610013AD90 /* ButtonView.swift in Sources */,
