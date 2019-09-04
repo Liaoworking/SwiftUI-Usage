@@ -51,6 +51,16 @@ struct TextView: View {
                 .background(Color.green)
                 .cornerRadius(2)
                 .shadow(color: .black, radius: 3, x: 3, y: 3)
+          
+            Text("Dash Border")
+                 .fontWeight(.bold)
+                 .font(.title)
+                 .foregroundColor(.purple)
+                 .padding()
+                 .overlay(
+                     Capsule(style: .continuous)
+                         .stroke(Color.purple, style: StrokeStyle(lineWidth: 5, dash: [10]))
+                 )
             // TODO: Get width of text?
             Spacer()
         }
