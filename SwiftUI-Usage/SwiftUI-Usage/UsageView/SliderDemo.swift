@@ -10,11 +10,12 @@ import Foundation
 import SwiftUI
 struct SliderDemo: View {
 
-    @State var progress: Double = 0
+    @State var progress: Double = 50
     
     var body: some View {
         VStack {
-            Slider(value: $progress).frame(width: 300, height: 30, alignment: .center)
+           Slider(value: $progress, in: 0...100, step: 0.1).frame(width: 300, height: 30, alignment: .center)
+            Text("current value:\(progress)")
         }
     }
 }
