@@ -10,14 +10,14 @@ import SwiftUI
 
 struct ListDemo: View {
 
-    @State var dataList: [ListDemoModel] = [ListDemoModel(id: 1,
-                                                          sectionName: "Section1",
-                                                          systemImageName: "faceid",
-                                                          content: "Face ID"),
-                                            ListDemoModel(id: 2,
-                                                          sectionName: "Section2",
-                                                          systemImageName: "wifi",
-                                                          content: "Wifi")]
+    var dataList: [ListDemoModel] = [ListDemoModel(id: 1,
+                                                  sectionName: "Section1",
+                                                  systemImageName: "faceid",
+                                                  content: "Face ID"),
+                                    ListDemoModel(id: 2,
+                                                  sectionName: "Section2",
+                                                  systemImageName: "wifi",
+                                                  content: "Wifi")]
     
     var body: some View {
         List(){
@@ -30,6 +30,21 @@ struct ListDemo: View {
                     }
             }
         }.listStyle(GroupedListStyle())
+    }
+}
+
+struct Row: View {
+    
+    var imageName: String
+    var content: String
+
+    var body: some View {
+        VStack{
+            HStack(alignment: .center, spacing: 10, content: {
+                Image(systemName: imageName)
+                Text(content)
+            })
+        }
     }
 }
 
@@ -47,18 +62,3 @@ struct ListDemo_Preview: PreviewProvider {
     }
 }
 #endif
-
-struct Row: View {
-    
-    var imageName: String
-    var content: String
-
-    var body: some View {
-        VStack{
-            HStack(alignment: .center, spacing: 10, content: {
-                Image(systemName: imageName)
-                Text(content)
-            })
-        }
-    }
-}
