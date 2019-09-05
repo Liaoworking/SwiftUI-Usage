@@ -21,8 +21,8 @@ struct ActionSheetDemo: View {
                 Text("Show ActionSheet")
             }.actionSheet(isPresented: $showSheet,
                           content: { () -> ActionSheet in
-                            ActionSheet(title: Text("Titie here"),
-                                        message: Text("message Here"),
+                            ActionSheet(title: Text("Titie"),
+                                        message: Text("message"),
                                         buttons: [.default(Text("first default"),
                                                         action: { print("first clicked") }),
                                                   .default(Text("second default"),
@@ -38,7 +38,7 @@ struct ActionSheetDemo: View {
                 self.showAlert.toggle()
             }) {
                 // What's the button looks like here
-                Text("Button")
+                Text("Show Alert").foregroundColor(Color.green)
             }.alert(isPresented: $showAlert) { () -> Alert in
                 Alert(title: Text("Title"),
                       message: Text("message"),
