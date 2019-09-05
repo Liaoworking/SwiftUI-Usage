@@ -10,8 +10,8 @@ import SwiftUI
 import Combine
 
 struct ActionSheetDemo: View {
-    @State var showSheet = false
-    @State var showAlert = false
+    @State private var showSheet = false
+    @State private var showAlert = false
 
     var body: some View {
         VStack {

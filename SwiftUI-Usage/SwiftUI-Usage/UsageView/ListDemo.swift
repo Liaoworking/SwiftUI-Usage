@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ListDemo: View {
 
-    var dataList: [ListDemoModel] = [ListDemoModel(id: 1,
+    private var dataList: [ListDemoModel] = [ListDemoModel(id: 1,
                                                   sectionName: "Section1",
                                                   systemImageName: "faceid",
                                                   content: "Face ID"),

@@ -11,8 +11,8 @@ import Combine
 
 struct TextFieldDemo: View {
     
-    @State var text: String = ""
-    @State var numberKeyBoardText: String = "numberKeyBoardTextHere"
+    @State private var text: String = ""
+    @State private var numberKeyBoardText: String = "numberKeyBoardTextHere"
     // TODO: max length to be done
     @State var maxLengthText: String = "textFieldMaxLength=20" {
         willSet {
