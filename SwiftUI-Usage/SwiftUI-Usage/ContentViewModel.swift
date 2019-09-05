@@ -14,7 +14,7 @@ struct ContentViewModel {
                     ListModel(id: 2, title: "UIbutton -> Button", nextView: AnyView( ButtonView() )),
                     ListModel(id: 3, title: "UITextField -> TextField", nextView: AnyView( TextFieldDemo() )),
                     ListModel(id: 4, title: "UITableView -> List", nextView: AnyView(ListDemo())),
-                    ListModel(id: 5, title: "UISlider -> Slider", nextView: AnyView(SliderDemo()))]
+                    ListModel(id: 5, title: "UISlider -> Slider", nextView: AnyView(SliderDemo().environmentObject(SliderData())))]
 }
 
 struct ListModel: Identifiable {
