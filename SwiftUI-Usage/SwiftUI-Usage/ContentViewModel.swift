@@ -18,10 +18,11 @@ struct ContentViewModel {
                     ListModel(id: 3, title: "UITextField -> TextField", nextView: AnyView( TextFieldDemo() )),
                     ListModel(id: 4, title: "UITableView -> List", nextView: AnyView( ListDemo() )),
                     ListModel(id: 5, title: "UISlider -> Slider", nextView: AnyView( SliderDemo().environmentObject(SliderData()) )),
-                    ListModel(id: 6, title: "UIAlertController -> ActionSheet & Alert", nextView: AnyView( ActionSheetDemo() )),
-                    ListModel(id: 7, title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
-                    ListModel(id: 8, title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
-                    ListModel(id: 9, title: "Stpper", nextView: AnyView( StepperDemo() ))]
+                    ListModel(id: 6, title: "UISwitch -> Toggle", nextView: AnyView( ToggleDemo() )),
+                    ListModel(id: 7, title: "UIAlertController -> ActionSheet & Alert", nextView: AnyView( ActionSheetDemo() )),
+                    ListModel(id: 8, title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
+                    ListModel(id: 9, title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
+                    ListModel(id: 10, title: "Stpper", nextView: AnyView( StepperDemo() ))]
 }
 
 struct ListModel: Identifiable {

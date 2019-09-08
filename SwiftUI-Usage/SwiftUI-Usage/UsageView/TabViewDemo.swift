@@ -6,8 +6,8 @@
 //  Copyright © 2019 Run Liao. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
+
 struct TabViewDemo: View {
     var body: some View {
         TabView {

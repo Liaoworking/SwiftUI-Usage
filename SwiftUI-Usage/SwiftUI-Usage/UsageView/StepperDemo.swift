@@ -6,7 +6,6 @@
 //  Copyright © 2019 Run Liao. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
 
 
