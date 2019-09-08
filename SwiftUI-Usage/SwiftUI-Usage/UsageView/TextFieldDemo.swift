@@ -19,10 +19,6 @@ struct TextFieldDemo: View {
             print("触发")
             self.maxLengthText = String(newValue.prefix(20))
         }
-        didSet {
-            print("触发333")
-
-        }
     }
 
     
