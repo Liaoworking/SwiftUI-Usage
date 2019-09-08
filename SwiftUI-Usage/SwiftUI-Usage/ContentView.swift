@@ -16,6 +16,9 @@ struct ContentView: View {
     
     let viewModel = ContentViewModel()
     
+    @State var needPopBack = false
+
+    
     var body: some View {
         NavigationView {
             
