@@ -22,7 +22,7 @@ struct NavigationViewDemo: View {
            }.navigationBarTitle(Text("title"), displayMode: .inline)
                 .navigationBarHidden(self.isNavigationBarHidden)
             // you can use navigationBarBackButtonHidden to hide back item
-    //                .navigationBarBackButtonHidden(true)
+            // .navigationBarBackButtonHidden(true)
          }
         .navigationBarItems(
         trailing:
@@ -33,11 +33,9 @@ struct NavigationViewDemo: View {
                     Text("Button")
                 }
             }
-
         )
         .navigationBarBackButtonHidden(false)
     }
-    
 }
 
 
