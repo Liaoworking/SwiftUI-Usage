@@ -11,6 +11,7 @@ import Combine
 struct ToggleModel {
     var isWifiOpen: Bool = true {
         willSet {
+            // if you have a better idea to do like this, tell me now😺
             print("wifi status will change")
         }
     }
