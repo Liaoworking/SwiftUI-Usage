@@ -7,17 +7,35 @@
 //
 
 import SwiftUI
+import Combine
+struct ToggleModel {
+    var isWifiOpen: Bool = true {
+        willSet {
+            print("wifi status will change")
+        }
+    }
+}
 
 struct ToggleDemo: View {
-    @State var isShowing = true
+    @State var model = ToggleModel()
+    
     var body: some View {
-        // TODO: how to observe value change event?
-        Toggle(isOn: $isShowing) {
-            HStack {
-                Image(systemName: "wifi")
-                Text("wifi")
-            }
-        }.padding()
+        VStack {
+            Toggle(isOn: $model.isWifiOpen) {
+                HStack {
+                    Image(systemName: "wifi")
+                    Text("wifi")
+                }
+            }.accentColor(.pink)
+            .padding()
+            Text("""
+                you can't change the tint color now
+                you can use UISwitch and UIViewRepresentable to do this.
+                """)
+                .font(.system(size: 12))
+                .multilineTextAlignment(.center)
+            
+        }
     }
 }
 

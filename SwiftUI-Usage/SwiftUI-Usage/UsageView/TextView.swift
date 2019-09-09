@@ -66,7 +66,7 @@ struct TextView: View {
             VStack(){
                 Text("下面的Label的长度以我为准")
                 GeometryReader() { geometry in
-                    Text("不瞒你说，我的长度以上面的长度为准").frame(width: 10, alignment: .center)
+                    Text("不瞒你说，我的长度以上面的长度为准").frame(width: 100, alignment: .center)
                 }
             }
             
