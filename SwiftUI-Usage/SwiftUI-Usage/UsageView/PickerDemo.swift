@@ -10,20 +10,44 @@ import SwiftUI
 
 struct PickerDemo: View {
     @State var selection: Int = 0
+    @State var mapChoioce = 0
+    var settings = ["Music", "Video", "Image"]
+    var dateInfo = ["Yesterday", "Today","Tomorrow"]
     var body: some View {
-        Form {
-               Section {
-                
-                   Picker(selection: $selection, label:
-                       Text("Picker Name")
-                       , content: {
-                           Text("Value 1").tag(0)
-                           Text("Value 2").tag(1)
-                           Text("Value 3").tag(2)
-                           Text("Value 4").tag(3)
-                   })
-               }
-           }
+        VStack {
+            Spacer()
+            Picker("Options", selection: $mapChoioce) {
+                 ForEach(0 ..< settings.count) { index in
+                     Text(self.settings[index])
+                        .tag(index)
+                 }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            
+            Form{
+                Picker(selection: $selection, label:
+                    Text("Date")
+                    , content: {
+                        Text("Yesterday").tag(0).foregroundColor(.yellow)
+                        Text("Today").tag(1)
+                        Text("Tomorrow").tag(2)
+                })
+                .pickerStyle(DefaultPickerStyle())
+            }
+            
+            Picker(selection: $selection, label:
+                Text("Date").foregroundColor(.red)
+                , content: {
+                    HStack {
+                        Image(systemName: "smiley")
+                        Text("Yesterday")
+                    }.tag(0)
+                    Text("Today").tag(1)
+                    Text("Tomorrow").tag(2)
+            }).pickerStyle(WheelPickerStyle())
+
+            Spacer()
+        }.navigationBarTitle("Picker")
     }
 }
 
