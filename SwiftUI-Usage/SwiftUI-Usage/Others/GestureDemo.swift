@@ -12,17 +12,23 @@ struct GestureDemo: View {
     
     @State var viewState: CGSize = .zero
     
+    @State var tapTextColor: Color = .red
+    @State var longPressTextColor: Color = .green
+
+    
     var body: some View {
         VStack {
             Spacer()
             Text("tap me")
+                .foregroundColor(tapTextColor)
                 .onTapGesture {
-                    print("I'm tapping")
+                    self.tapTextColor = .yellow
                 }
             
             Text("long press me")
+                .foregroundColor(longPressTextColor)
                 .onLongPressGesture {
-                    print("I'm long pressing")
+                    self.longPressTextColor = .pink
                 }
             Spacer()
             Text("drag me now😁")
