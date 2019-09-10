@@ -11,10 +11,8 @@ import Combine
 struct GestureDemo: View {
     
     @State var viewState: CGSize = .zero
-    
     @State var tapTextColor: Color = .red
     @State var longPressTextColor: Color = .green
-
     
     var body: some View {
         VStack {
@@ -31,6 +29,7 @@ struct GestureDemo: View {
                     self.longPressTextColor = .pink
                 }
             Spacer()
+            
             Text("drag me now😁")
             .offset(viewState)
             .gesture(
@@ -44,7 +43,7 @@ struct GestureDemo: View {
             )
             Spacer()
         }
-        .navigationBarTitle("Picker")
+        .navigationBarTitle("Gesture")
     }
 }
 

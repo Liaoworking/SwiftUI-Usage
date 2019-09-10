@@ -24,8 +24,9 @@ struct ContentViewModel {
                     ListModel(id: 8, title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
                     ListModel(id: 9, title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
                     ListModel(id: 10, title: "Stpper", nextView: AnyView( StepperDemo() )),
-                    ListModel(id: 12, title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
-                    ListModel(id: 13, title: "Gesture", nextView: AnyView( GestureDemo() ))]
+                    ListModel(id: 12, title: "Form", nextView: AnyView( FormDemo() )),
+                    ListModel(id: 13, title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
+                    ListModel(id: 14, title: "Gesture", nextView: AnyView( GestureDemo() ))]
 }
 
 struct ListModel: Identifiable {

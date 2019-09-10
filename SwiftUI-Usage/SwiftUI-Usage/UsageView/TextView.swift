@@ -61,15 +61,7 @@ struct TextView: View {
                      Capsule(style: .continuous)
                          .stroke(Color.purple, style: StrokeStyle(lineWidth: 5, dash: [10]))
                  )
-            // TODO: Get width of text?
-            
-            VStack(){
-                Text("下面的Label的长度以我为准")
-                GeometryReader() { geometry in
-                    Text("不瞒你说，我的长度以上面的长度为准").frame(width: 100, alignment: .center)
-                }
-            }
-            
+            // TODO: Get the width of text?
             Spacer()
         }
         

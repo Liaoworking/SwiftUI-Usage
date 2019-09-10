@@ -12,7 +12,7 @@ import Combine
 struct TextFieldDemo: View {
     
     @State private var text: String = ""
-    @State private var numberKeyBoardText: String = "numberKeyBoardTextHere"
+    @State private var numberKeyBoardText: String = "numberKeyBoard"
     // TODO: max length to be done
     @State var maxLengthText: String = "textFieldMaxLength=20" {
         willSet {
@@ -20,6 +20,8 @@ struct TextFieldDemo: View {
             self.maxLengthText = String(newValue.prefix(20))
         }
     }
+
+    @State private var password: String = ""
 
     
     var body: some View {
@@ -49,11 +51,15 @@ struct TextFieldDemo: View {
                         .foregroundColor(.red)
                 }
             }
-
+            /// SecureField
+            SecureField("Password", text: self.$password).background(Color.white)
+            
             Text("Tap the blank space to hide the keyboard")
 
-        }.frame(maxWidth: geometry.size.width, maxHeight: geometry.size.height)
-            .background(Color.green)
+        }.padding()
+        .frame(maxWidth: geometry.size.width, maxHeight: geometry.size.height)
+        .background(Color.green)
+        
         }.gesture(
             TapGesture().onEnded { (_) in
                 print("tap event")
