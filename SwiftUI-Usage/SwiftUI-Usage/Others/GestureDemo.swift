@@ -1,0 +1,52 @@
+//
+//  GestureDemo.swift
+//  SwiftUI-Usage
+//
+//  Created by Run Liao on 2019/9/10.
+//  Copyright © 2019 Run Liao. All rights reserved.
+//
+
+import SwiftUI
+import Combine
+struct GestureDemo: View {
+    
+    @State var viewState: CGSize = .zero
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            Text("tap me")
+                .onTapGesture {
+                    print("I'm tapping")
+                }
+            
+            Text("long press me")
+                .onLongPressGesture {
+                    print("I'm long pressing")
+                }
+            Spacer()
+            Text("drag me now😁")
+            .offset(viewState)
+            .gesture(
+                DragGesture()
+                    .onChanged({ (value) in
+                        self.viewState = value.translation
+                    })
+                    .onEnded({ (_) in
+                        self.viewState = .zero
+                    })
+            )
+            Spacer()
+        }
+        .navigationBarTitle("Picker")
+    }
+}
+
+
+#if DEBUG
+struct GestureDemo_Preview: PreviewProvider {
+    static var previews: GestureDemo {
+        return GestureDemo()
+    }
+}
+#endif

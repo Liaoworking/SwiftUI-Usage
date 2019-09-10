@@ -8,7 +8,6 @@
 
 import SwiftUI
 struct LifeCycleDemo: View {
-
     
     var body: some View {
         VStack {
@@ -16,9 +15,10 @@ struct LifeCycleDemo: View {
         }.onAppear {
             print("onAppear")
         }.onDisappear {
+            // if it was not called ， it may be a bug on beta version
+            //https://stackoverflow.com/questions/57160288/why-view-ondisappear-not-get-called
             print("onDisappear")
         }
-        
     }
 }
 
