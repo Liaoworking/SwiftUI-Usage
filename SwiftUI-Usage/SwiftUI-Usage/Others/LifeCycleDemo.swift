@@ -7,6 +7,12 @@
 //
 
 import SwiftUI
+
+/**
+ here is an article to introduce life cycle in SwiftUI
+ https://medium.com/flawless-app-stories/the-simple-life-cycle-of-a-swiftui-view-95e2e14848a2
+ */
+
 struct LifeCycleDemo: View {
     
     var body: some View {
