@@ -12,11 +12,38 @@ import Combine
 struct ShapeDemo: View {
     
     var body: some View {
-        VStack {
-            Image("jay").resizable()
-                .frame(maxWidth: 400, maxHeight: 400)
-                .background(Color.red)
-                .clipShape(CustomShape())
+        VStack(spacing: 10) {
+            Text("Capsule")
+                .frame(maxWidth: 100, maxHeight: 20)
+                .background(Color.yellow)
+                .clipShape(Capsule())
+            
+            Text("Circle")
+                .frame(maxWidth: 100, maxHeight: 20)
+                .background(Color.yellow)
+                .clipShape(Circle())
+            Text("Ellipse")
+                .frame(maxWidth: 100, maxHeight: 20)
+                .background(Color.yellow)
+                .clipShape(Ellipse())
+            
+            Text("Rectangle")
+                .frame(maxWidth: 100, maxHeight: 20)
+                .background(Color.yellow)
+                .clipShape(Rectangle())
+            
+            Text("RoundedRectangle")
+                .frame(maxWidth: 150, maxHeight: 20)
+                .background(Color.yellow)
+                .clipShape(RoundedRectangle(cornerRadius: 3))
+            
+            VStack {
+                Image("jay").resizable()
+                    .frame(maxWidth: 100, maxHeight: 100)
+                    .background(Color.red)
+                    .clipShape(CustomShape())
+                Text("CustomShape ↑")
+            }
         }
         .navigationBarTitle("shape")
     }
