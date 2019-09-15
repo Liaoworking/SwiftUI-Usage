@@ -19,6 +19,8 @@
 		212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6B4F2324F0F10013AD90 /* ToggleDemo.swift */; };
 		212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6B522324F42B0013AD90 /* PickerDemo.swift */; };
 		213E9B2A231BD60D00CD2E4C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E9B29231BD60D00CD2E4C /* ImageView.swift */; };
+		21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */; };
+		21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB189232E1C430056215A /* LoadDataViewModel.swift */; };
 		21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */; };
 		21C683702327F63700F60667 /* GestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6836F2327F63700F60667 /* GestureDemo.swift */; };
 		21C68372232801C500F60667 /* FormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C68371232801C500F60667 /* FormDemo.swift */; };
@@ -47,6 +49,8 @@
 		212B6B512324F3340013AD90 /* TODOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TODOS.h; sourceTree = "<group>"; };
 		212B6B522324F42B0013AD90 /* PickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemo.swift; sourceTree = "<group>"; };
 		213E9B29231BD60D00CD2E4C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataFromNetworkDemo.swift; sourceTree = "<group>"; };
+		21BEB189232E1C430056215A /* LoadDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataViewModel.swift; sourceTree = "<group>"; };
 		21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemo.swift; sourceTree = "<group>"; };
 		21C6836F2327F63700F60667 /* GestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo.swift; sourceTree = "<group>"; };
 		21C68371232801C500F60667 /* FormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemo.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21BEB188232E1C190056215A /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21BEB189232E1C430056215A /* LoadDataViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		21C6836C2326B9F500F60667 /* Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		21E8523623158F140093BCDF /* SwiftUI-Usage */ = {
 			isa = PBXGroup;
 			children = (
+				21BEB188232E1C190056215A /* viewModel */,
 				21C6836C2326B9F500F60667 /* Others */,
 				21E8524D2316D08F0093BCDF /* UsageView */,
 				21E8523723158F140093BCDF /* AppDelegate.swift */,
@@ -143,6 +156,7 @@
 				212B6B4F2324F0F10013AD90 /* ToggleDemo.swift */,
 				212B6B522324F42B0013AD90 /* PickerDemo.swift */,
 				21C68371232801C500F60667 /* FormDemo.swift */,
+				21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */,
 			);
 			path = UsageView;
 			sourceTree = "<group>";
@@ -218,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */,
 				213E9B2A231BD60D00CD2E4C /* ImageView.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
@@ -232,6 +247,7 @@
 				212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */,
 				21E8523A23158F140093BCDF /* SceneDelegate.swift in Sources */,
 				21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */,
+				21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */,
 				212B6B482324D6030013AD90 /* NavigationHiddenDemo.swift in Sources */,
 				21C68372232801C500F60667 /* FormDemo.swift in Sources */,
 				21E8523C23158F140093BCDF /* ContentView.swift in Sources */,
