@@ -15,6 +15,10 @@ struct LoadDataFromNetworkDemo: View {
     var body: some View {
         VStack(spacing:10) {
             Text("\(viewModel.todoModel.title ?? "")")
+            Text("⬆️This Data will download from the Internet after 2 sceonds")
+                .multilineTextAlignment(.center)
+                .foregroundColor(.purple)
+                .lineLimit(2)
         }.padding()
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
