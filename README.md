@@ -22,8 +22,7 @@
 | UISlider -> Slider | ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688220771769.jpg?raw=true) |
 | UISwitch -> Toggle | ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688220916329.jpg?raw=true) |
 | UIPickerView -> Picker| ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221163499.jpg?raw=true) |
-| UIAlertController -> ActionSheet & Alert| ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221288937.jpg?raw=true) ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221404387.jpg?raw=true) 
-|
+| UIAlertController -> ActionSheet & Alert| ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221288937.jpg?raw=true) ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221404387.jpg?raw=true)|
 | UINavigationController -> NavigationView | ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221574915.jpg?raw=true) ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688221685397.jpg?raw=true) |
 | UITabBarViewController -> TabView | ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688222219897.jpg?raw=true)  |
 | Stpper | ![image](https://github.com/Liaoworking/SwiftUI-Usage/blob/master/image/15688222310349.jpg?raw=true) |
