@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ImageView: View {
+struct ImageDemo: View {
     var body: some View {
         ScrollView {
             VStack {
@@ -51,9 +51,9 @@ struct ImageView: View {
 
 
 #if DEBUG
-struct ImageView_Preview: PreviewProvider {
-    static var previews: ImageView {
-        return ImageView()
+struct ImageDemo_Preview: PreviewProvider {
+    static var previews: ImageDemo {
+        return ImageDemo()
     }
 }
 #endif

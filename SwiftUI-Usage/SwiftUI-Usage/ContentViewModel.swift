@@ -12,9 +12,9 @@ struct ContentViewModel {
     
     @State var needPopBack = false
     
-    let modelArray = [ListModel(id: 0,title: "UILabel -> Text", nextView: AnyView( TextView() )),
-                    ListModel(id: 1, title: "UIImage -> Image", nextView: AnyView( ImageView() )),
-                    ListModel(id: 2, title: "UIbutton -> Button", nextView: AnyView( ButtonView() )),
+    let modelArray = [ListModel(id: 0,title: "UILabel -> Text", nextView: AnyView( TextDemo() )),
+                    ListModel(id: 1, title: "UIImage -> Image", nextView: AnyView( ImageDemo() )),
+                    ListModel(id: 2, title: "UIbutton -> Button", nextView: AnyView( ButtonDemo() )),
                     ListModel(id: 3, title: "UITextField -> TextField", nextView: AnyView( TextFieldDemo() )),
                     ListModel(id: 4, title: "UITableView -> List", nextView: AnyView( ListDemo() )),
                     ListModel(id: 5, title: "UISlider -> Slider", nextView: AnyView( SliderDemo().environmentObject(SliderData()) )),

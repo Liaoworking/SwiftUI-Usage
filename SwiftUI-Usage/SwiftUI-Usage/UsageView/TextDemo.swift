@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TextView: View {
+struct TextDemo: View {
     
     var body: some View {
         
@@ -71,9 +71,9 @@ struct TextView: View {
 }
 
 #if DEBUG
-struct TextView_Preview: PreviewProvider {
-    static var previews: TextView {
-        return TextView()
+struct TextDemo_Preview: PreviewProvider {
+    static var previews: TextDemo {
+        return TextDemo()
     }
 }
 #endif
