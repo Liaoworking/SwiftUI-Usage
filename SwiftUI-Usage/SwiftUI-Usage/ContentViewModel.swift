@@ -28,7 +28,8 @@ struct ContentViewModel {
                     ListModel(id: 13, title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
                     ListModel(id: 14, title: "Gesture", nextView: AnyView( GestureDemo() )),
                     ListModel(id: 15, title: "Shape", nextView: AnyView( ShapeDemo() )),
-                    ListModel(id: 16, title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() ))]
+                    ListModel(id: 16, title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
+                    ListModel(id: 17, title: "ImagePicker", nextView: AnyView( ImagePickerDemo() ))]
 }
 
 struct ListModel: Identifiable {
