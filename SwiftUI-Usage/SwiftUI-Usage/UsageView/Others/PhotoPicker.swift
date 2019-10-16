@@ -70,7 +70,6 @@ class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerContro
 
     func updateUIViewController(_ uiViewController: UIImagePickerController,
                                 context: UIViewControllerRepresentableContext<ImagePicker>) {
-
     }
 
 }

@@ -12,30 +12,29 @@ struct ContentViewModel {
     
     @State var needPopBack = false
     
-    let modelArray = [ListModel(id: 0,title: "UILabel -> Text", nextView: AnyView( TextDemo() )),
-                    ListModel(id: 1, title: "UIImage -> Image", nextView: AnyView( ImageDemo() )),
-                    ListModel(id: 2, title: "UIbutton -> Button", nextView: AnyView( ButtonDemo() )),
-                    ListModel(id: 3, title: "UITextField -> TextField", nextView: AnyView( TextFieldDemo() )),
-                    ListModel(id: 4, title: "UITableView -> List", nextView: AnyView( ListDemo() )),
-                    ListModel(id: 5, title: "UISlider -> Slider", nextView: AnyView( SliderDemo().environmentObject(SliderData()) )),
-                    ListModel(id: 6, title: "UISwitch -> Toggle", nextView: AnyView( ToggleDemo() )),
-                    ListModel(id: 11, title: "UIPickerView -> Picker", nextView: AnyView( PickerDemo() )),                    
-                    ListModel(id: 7, title: "UIAlertController -> ActionSheet & Alert", nextView: AnyView( ActionSheetDemo() )),
-                    ListModel(id: 8, title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
-                    ListModel(id: 9, title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
-                    ListModel(id: 10, title: "Stpper", nextView: AnyView( StepperDemo() )),
-                    ListModel(id: 12, title: "Form", nextView: AnyView( FormDemo() )),
-                    ListModel(id: 13, title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
-                    ListModel(id: 14, title: "Gesture", nextView: AnyView( GestureDemo() )),
-                    ListModel(id: 15, title: "Shape", nextView: AnyView( ShapeDemo() )),
-                    ListModel(id: 16, title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
-                    ListModel(id: 17, title: "ImagePicker", nextView: AnyView( ImagePickerDemo() ))]
+    let modelArray = [ListModel(title: "UILabel -> Text", nextView: AnyView( TextDemo() )),
+                    ListModel(title: "UIImage -> Image", nextView: AnyView( ImageDemo() )),
+                    ListModel(title: "UIbutton -> Button", nextView: AnyView( ButtonDemo() )),
+                    ListModel(title: "UITextField -> TextField", nextView: AnyView( TextFieldDemo() )),
+                    ListModel(title: "UITableView -> List", nextView: AnyView( ListDemo() )),
+                    ListModel(title: "UISlider -> Slider", nextView: AnyView( SliderDemo().environmentObject(SliderData()) )),
+                    ListModel(title: "UISwitch -> Toggle", nextView: AnyView( ToggleDemo() )),
+                    ListModel(title: "UIPickerView -> Picker", nextView: AnyView( PickerDemo() )),
+                    ListModel(title: "UIAlertController -> ActionSheet & Alert", nextView: AnyView( ActionSheetDemo() )),
+                    ListModel(title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
+                    ListModel(title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
+                    ListModel(title: "Stpper", nextView: AnyView( StepperDemo() )),
+                    ListModel(title: "Form", nextView: AnyView( FormDemo() )),
+                    ListModel(title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
+                    ListModel(title: "Gesture", nextView: AnyView( GestureDemo() )),
+                    ListModel(title: "Shape", nextView: AnyView( ShapeDemo() )),
+                    ListModel(title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
+                    ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() ))]
 }
 
 struct ListModel: Identifiable {
-    var id: Int
+    var id = UUID()
     var title: String
     var nextView: AnyView
-    
 }
 

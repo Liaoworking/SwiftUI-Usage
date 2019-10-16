@@ -21,17 +21,13 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            
             List(viewModel.modelArray){ model in
                 NavigationLink(destination: model.nextView) {
                     Text(model.title)
                 }                
             }.navigationBarTitle(Text("Demo")
                 , displayMode: .inline)
-            
         }
-
-
     }
 }
 
