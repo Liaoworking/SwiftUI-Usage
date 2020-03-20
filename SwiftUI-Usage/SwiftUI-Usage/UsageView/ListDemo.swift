@@ -20,16 +20,19 @@ struct ListDemo: View {
                                                   content: "Wifi")]
     
     var body: some View {
-        List(){
-            ForEach(dataList) { model in
-                Section(header: Text(model.sectionName),footer: HStack{
-                    Image(systemName: "bottom")
-                    Text("Footer")
-                }) {
-                    Row(imageName: model.systemImageName, content: model.content)
-                    }
-            }
-        }.listStyle(GroupedListStyle())
+        VStack(){
+            List(){
+                ForEach(dataList) { model in
+                    Section(header: Text(model.sectionName),footer: HStack{
+                        Image(systemName: "bottom")
+                        Text("Footer")
+                    }) {
+                        Row(imageName: model.systemImageName, content: model.content)
+                        }
+                }
+            }.listStyle(GroupedListStyle())
+        }
+        
     }
 }
 

@@ -34,6 +34,7 @@
 		21E8524423158F160093BCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E8524223158F160093BCDF /* LaunchScreen.storyboard */; };
 		21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E8524B2316CCD50093BCDF /* ContentViewModel.swift */; };
 		21E8524F2316D0CA0093BCDF /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E8524E2316D0CA0093BCDF /* TextDemo.swift */; };
+		D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5499DC42424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		21E8524523158F160093BCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21E8524B2316CCD50093BCDF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		21E8524E2316D0CA0093BCDF /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemo.swift; sourceTree = "<group>"; };
+		D5499DC42424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_AnchorPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				D5499DC22424D77F00C74D51 /* SwiftUI-Lab */,
 				21C6836C2326B9F500F60667 /* Others */,
 				21E8524E2316D0CA0093BCDF /* TextDemo.swift */,
 				213E9B29231BD60D00CD2E4C /* ImageDemo.swift */,
@@ -164,6 +167,22 @@
 				21C68371232801C500F60667 /* FormDemo.swift */,
 			);
 			path = UsageView;
+			sourceTree = "<group>";
+		};
+		D5499DC22424D77F00C74D51 /* SwiftUI-Lab */ = {
+			isa = PBXGroup;
+			children = (
+				D5499DC32424D79500C74D51 /* AnchorPreferences */,
+			);
+			path = "SwiftUI-Lab";
+			sourceTree = "<group>";
+		};
+		D5499DC32424D79500C74D51 /* AnchorPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				D5499DC42424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift */,
+			);
+			path = AnchorPreferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +264,7 @@
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
+				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
 				212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */,
 				21E8524F2316D0CA0093BCDF /* TextDemo.swift in Sources */,

@@ -29,8 +29,13 @@ struct ContentViewModel {
                     ListModel(title: "Gesture", nextView: AnyView( GestureDemo() )),
                     ListModel(title: "Shape", nextView: AnyView( ShapeDemo() )),
                     ListModel(title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
-                    ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() ))]
+                    ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
+                    ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
+
+    ]
 }
+
+
 
 struct ListModel: Identifiable {
     var id = UUID()
