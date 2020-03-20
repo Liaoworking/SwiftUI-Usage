@@ -24,22 +24,53 @@ struct ToggleDemo: View {
         VStack {
             Toggle(isOn: $model.isWifiOpen) {
                 HStack {
-                    Image(systemName: "wifi")
                     Text("wifi")
                 }
             }.accentColor(.pink)
             .padding()
-            Text("""
-                you can't change the tint color now
-                you can use UISwitch and UIViewRepresentable to do this.
-                """)
-                .font(.system(size: 12))
-                .multilineTextAlignment(.center)
+
+            Toggle("", isOn: $model.isWifiOpen)
+            .toggleStyle(
+                ColoredToggleStyle(label: "My Colored Toggle",
+                                   onColor: .green,
+                                   offColor: .red,
+                                   thumbColor: Color(UIColor.systemTeal)))
+            
+            
             
         }
     }
 }
 
+
+struct ColoredToggleStyle: ToggleStyle {
+    var label = ""
+    var onColor = Color(UIColor.green)
+    var offColor = Color(UIColor.systemGray5)
+    var thumbColor = Color.white
+
+    func makeBody(configuration: Self.Configuration) -> some View {
+        HStack {
+            Text(label)
+            Spacer()
+            Button(action: { configuration.isOn.toggle() } )
+            {
+                RoundedRectangle(cornerRadius: 16, style: .circular)
+                    .fill(configuration.isOn ? onColor : offColor)
+                    .frame(width: 50, height: 29)
+                    .overlay(
+                        Circle()
+                            .fill(thumbColor)
+                            .shadow(radius: 1, x: 0, y: 1)
+                            .padding(1.5)
+                            .offset(x: configuration.isOn ? 10 : -10))
+                    .animation(Animation.easeInOut(duration: 0.1))
+            }
+        }
+        .font(.title)
+        .padding(.horizontal)
+    }
+}
 
 #if DEBUG
 struct ToggleDemo_Preview: PreviewProvider {
