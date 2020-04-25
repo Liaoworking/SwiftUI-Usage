@@ -20,6 +20,7 @@
 		212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6B522324F42B0013AD90 /* PickerDemo.swift */; };
 		213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E9B29231BD60D00CD2E4C /* ImageDemo.swift */; };
 		214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214459D623371A9500F9FAF7 /* PhotoPicker.swift */; };
+		216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CC77E245426C000BCDF73 /* CoordinateSpace.swift */; };
 		21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */; };
 		21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */; };
 		21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB189232E1C430056215A /* LoadDataViewModel.swift */; };
@@ -54,6 +55,7 @@
 		213E9B29231BD60D00CD2E4C /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 		214459D623371A9500F9FAF7 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		214459D823371C8200F9FAF7 /* SwiftUI-Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Usage.entitlements"; sourceTree = "<group>"; };
+		216CC77E245426C000BCDF73 /* CoordinateSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpace.swift; sourceTree = "<group>"; };
 		21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_PreferenceKey.swift; sourceTree = "<group>"; };
 		21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataFromNetworkDemo.swift; sourceTree = "<group>"; };
 		21BEB189232E1C430056215A /* LoadDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataViewModel.swift; sourceTree = "<group>"; };
@@ -85,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216CC77C2454268000BCDF73 /* HackingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				216CC77D2454269D00BCDF73 /* CoordinateSpace */,
+			);
+			path = HackingSwift;
+			sourceTree = "<group>";
+		};
+		216CC77D2454269D00BCDF73 /* CoordinateSpace */ = {
+			isa = PBXGroup;
+			children = (
+				216CC77E245426C000BCDF73 /* CoordinateSpace.swift */,
+			);
+			path = CoordinateSpace;
+			sourceTree = "<group>";
+		};
 		21AFC36824251CA0008632BC /* PreferenceKey */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +177,7 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				216CC77C2454268000BCDF73 /* HackingSwift */,
 				D5499DC22424D77F00C74D51 /* SwiftUI-Lab */,
 				21C6836C2326B9F500F60667 /* Others */,
 				21E8524E2316D0CA0093BCDF /* TextDemo.swift */,
@@ -277,6 +296,7 @@
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
+				216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */,
 				212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */,
 				21E8524F2316D0CA0093BCDF /* TextDemo.swift in Sources */,
 				21C6837423291A9A00F60667 /* ShapeDemo.swift in Sources */,

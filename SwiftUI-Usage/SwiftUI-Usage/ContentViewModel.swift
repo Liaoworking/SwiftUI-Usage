@@ -31,7 +31,7 @@ struct ContentViewModel {
                     ListModel(title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
                     ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
-
+                    ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
     ]
 }
 
