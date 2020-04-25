@@ -41,7 +41,7 @@ struct SwiftUILab_AnchorPreferences: View {
             }
             
             Spacer()
-        }.backgroundPreferenceValue(MyTextPreferenceKey.self) { preferences in
+        }.overlayPreferenceValue(GHTestPreferenceKey.self) { preferences in
             GeometryReader { geometry in
                 ZStack {
                     self.createBorder(geometry, preferences)
@@ -54,7 +54,7 @@ struct SwiftUILab_AnchorPreferences: View {
         let p = preferences.first(where: { $0.viewIdx == self.activeIdx })
         
         let bounds = p != nil ? geometry[p!.bounds] : .zero
-        
+        print("\(bounds.size.width)__\(bounds.size.height)")
         return RoundedRectangle(cornerRadius: 15)
             .stroke(lineWidth: 3.0)
             .foregroundColor(Color.green)
@@ -70,15 +70,25 @@ struct MyTextPreferenceData {
     let bounds: Anchor<CGRect>
 }
 
-struct MyTextPreferenceKey: PreferenceKey {
-    typealias Value = [MyTextPreferenceData]
-    
+struct GHTestPreferenceKey: PreferenceKey {
     static var defaultValue: [MyTextPreferenceData] = []
     
     static func reduce(value: inout [MyTextPreferenceData], nextValue: () -> [MyTextPreferenceData]) {
         value.append(contentsOf: nextValue())
     }
+    
+    typealias Value = [MyTextPreferenceData]
 }
+
+//struct MyTextPreferenceKey: PreferenceKey {
+//    typealias Value = [MyTextPreferenceData]
+//
+//    static var defaultValue: [MyTextPreferenceData] = []
+//
+//    static func reduce(value: inout [MyTextPreferenceData], nextValue: () -> [MyTextPreferenceData]) {
+//        value.append(contentsOf: nextValue())
+//    }
+//}
 
 struct MonthView: View {
     @Binding var activeMonth: Int
@@ -87,8 +97,9 @@ struct MonthView: View {
     
     var body: some View {
         Text(label)
-            .padding(10)
-            .anchorPreference(key: MyTextPreferenceKey.self, value: .bounds, transform: { [MyTextPreferenceData(viewIdx: self.idx, bounds: $0)] })
+            .padding(10).background(Color.pink)
+            .anchorPreference(key:GHTestPreferenceKey.self,value: .bounds, transform: {[MyTextPreferenceData(viewIdx: self.idx, bounds: $0)]})
+//            .anchorPreference(key: MyTextPreferenceKey.self, value: .bounds, transform: { [MyTextPreferenceData(viewIdx: self.idx, bounds: $0)] })
             .onTapGesture { self.activeMonth = self.idx }
     }
 }

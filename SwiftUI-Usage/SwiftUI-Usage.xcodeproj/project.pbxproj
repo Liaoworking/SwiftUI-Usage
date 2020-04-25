@@ -20,6 +20,7 @@
 		212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6B522324F42B0013AD90 /* PickerDemo.swift */; };
 		213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E9B29231BD60D00CD2E4C /* ImageDemo.swift */; };
 		214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214459D623371A9500F9FAF7 /* PhotoPicker.swift */; };
+		21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */; };
 		21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */; };
 		21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB189232E1C430056215A /* LoadDataViewModel.swift */; };
 		21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */; };
@@ -53,6 +54,7 @@
 		213E9B29231BD60D00CD2E4C /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 		214459D623371A9500F9FAF7 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		214459D823371C8200F9FAF7 /* SwiftUI-Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Usage.entitlements"; sourceTree = "<group>"; };
+		21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_PreferenceKey.swift; sourceTree = "<group>"; };
 		21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataFromNetworkDemo.swift; sourceTree = "<group>"; };
 		21BEB189232E1C430056215A /* LoadDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataViewModel.swift; sourceTree = "<group>"; };
 		21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemo.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21AFC36824251CA0008632BC /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
 		21BEB188232E1C190056215A /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +182,7 @@
 		D5499DC22424D77F00C74D51 /* SwiftUI-Lab */ = {
 			isa = PBXGroup;
 			children = (
+				21AFC36824251CA0008632BC /* PreferenceKey */,
 				D5499DC32424D79500C74D51 /* AnchorPreferences */,
 			);
 			path = "SwiftUI-Lab";
@@ -280,6 +291,7 @@
 				214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */,
 				212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */,
 				212B6B4C2324E93A0013AD90 /* StepperDemo.swift in Sources */,
+				21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */,
 				212B6B4A2324E47D0013AD90 /* TabViewDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
