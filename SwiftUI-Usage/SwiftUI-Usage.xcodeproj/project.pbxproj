@@ -20,6 +20,7 @@
 		212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6B522324F42B0013AD90 /* PickerDemo.swift */; };
 		213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E9B29231BD60D00CD2E4C /* ImageDemo.swift */; };
 		214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214459D623371A9500F9FAF7 /* PhotoPicker.swift */; };
+		215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215CCFD32483B2B100D9463F /* SnapCarouselView.swift */; };
 		216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CC77E245426C000BCDF73 /* CoordinateSpace.swift */; };
 		21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */; };
 		21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */; };
@@ -55,6 +56,7 @@
 		213E9B29231BD60D00CD2E4C /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 		214459D623371A9500F9FAF7 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		214459D823371C8200F9FAF7 /* SwiftUI-Usage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-Usage.entitlements"; sourceTree = "<group>"; };
+		215CCFD32483B2B100D9463F /* SnapCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarouselView.swift; sourceTree = "<group>"; };
 		216CC77E245426C000BCDF73 /* CoordinateSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpace.swift; sourceTree = "<group>"; };
 		21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_PreferenceKey.swift; sourceTree = "<group>"; };
 		21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataFromNetworkDemo.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215CCFD22483B28F00D9463F /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				215CCFD32483B2B100D9463F /* SnapCarouselView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		216CC77C2454268000BCDF73 /* HackingSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 		21E8523623158F140093BCDF /* SwiftUI-Usage */ = {
 			isa = PBXGroup;
 			children = (
+				215CCFD22483B28F00D9463F /* Animation */,
 				214459D823371C8200F9FAF7 /* SwiftUI-Usage.entitlements */,
 				21BEB188232E1C190056215A /* viewModel */,
 				21E8524D2316D08F0093BCDF /* UsageView */,
@@ -290,6 +301,7 @@
 				213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
+				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
 				212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */,
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,

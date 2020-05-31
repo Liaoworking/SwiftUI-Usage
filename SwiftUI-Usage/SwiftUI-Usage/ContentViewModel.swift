@@ -32,6 +32,7 @@ struct ContentViewModel {
                     ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
                     ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
+                    ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
     ]
 }
 
@@ -42,4 +43,5 @@ struct ListModel: Identifiable {
     var title: String
     var nextView: AnyView
 }
+
 
