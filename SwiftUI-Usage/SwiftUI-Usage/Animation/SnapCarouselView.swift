@@ -14,19 +14,47 @@ struct SnapCarousel: View {
     @EnvironmentObject var UIState: UIStateModel
     
     var body: some View {
-        let spacing: CGFloat = 16
-        let widthOfHiddenCards: CGFloat = 10 /// UIScreen.main.bounds.width - 10
+        let spacing: CGFloat = 0
+        let widthOfHiddenCards: CGFloat = 0 /// UIScreen.main.bounds.width - 10
         let cardHeight: CGFloat = 279
         
         let items = [
             Card(id: 0, name: "Hey"),
             Card(id: 1, name: "Ho"),
-            Card(id: 2, name: "Lets"),
-            Card(id: 3, name: "Go")
+//            Card(id: 2, name: "Lets"),
+//            Card(id: 3, name: "Go")
         ]
         
-        return Canvas {
-            /// TODO: find a way to avoid passing same arguments to Carousel and Item
+//        return Canvas {
+//            /// TODO: find a way to avoid passing same arguments to Carousel and Item
+//            Carousel(
+//                numberOfItems: CGFloat(items.count),
+//                spacing: spacing,
+//                widthOfHiddenCards: widthOfHiddenCards
+//            ) {
+//                ForEach(items, id: \.self.id) { item in
+//                    Item(
+//                        _id: Int(item.id),
+//                        spacing: spacing,
+//                        widthOfHiddenCards: widthOfHiddenCards,
+//                        cardHeight: cardHeight
+//                    ) {
+//                        HStack {
+//                            Text("\(item.name)")
+//                            Image(systemName: "wifi")
+//                        }
+//                    }
+//                    .foregroundColor(Color.white)
+//                    .background(Color.green)
+//                    .cornerRadius(8)
+//                    .shadow(color: Color("shadow1"), radius: 4, x: 0, y: 4)
+//                    .transition(AnyTransition.slide)
+//                    .animation(.spring())
+//                }
+//
+//            }
+//        }
+        return HStack {
             Carousel(
                 numberOfItems: CGFloat(items.count),
                 spacing: spacing,
@@ -39,7 +67,10 @@ struct SnapCarousel: View {
                         widthOfHiddenCards: widthOfHiddenCards,
                         cardHeight: cardHeight
                     ) {
-                        Text("\(item.name)")
+                        HStack {
+                            Text("\(item.name)")
+                            Image(systemName: "wifi")
+                        }
                     }
                     .foregroundColor(Color.white)
                     .background(Color.green)
@@ -61,6 +92,8 @@ struct Card: Decodable, Hashable, Identifiable {
 public class UIStateModel: ObservableObject {
     @Published var activeCard: Int = 0
     @Published var screenDrag: Float = 0.0
+    @Published var screenDragOffsetY: Float = 0.0
+
 }
 
 struct Carousel<Items : View> : View {
@@ -108,20 +141,29 @@ struct Carousel<Items : View> : View {
         return HStack(alignment: .center, spacing: spacing) {
             items
         }
-        .offset(x: CGFloat(calcOffset), y: 0)
+        .offset(x: CGFloat(calcOffset), y: CGFloat(UIState.screenDragOffsetY))
         .gesture(DragGesture().updating($isDetectingLongPress) { currentState, gestureState, transaction in
+            print(currentState.translation.width)
             self.UIState.screenDrag = Float(currentState.translation.width)
-            
+            self.UIState.screenDragOffsetY = Float(currentState.translation.height)
         }.onEnded { value in
             self.UIState.screenDrag = 0
-            
+            self.UIState.screenDragOffsetY = 0
             if (value.translation.width < -50) {
+                print("🐔\(self.UIState.activeCard)")
+                if self.UIState.activeCard == Int(self.numberOfItems - 1) {
+                    return
+                }
                 self.UIState.activeCard = self.UIState.activeCard + 1
                 let impactMed = UIImpactFeedbackGenerator(style: .medium)
                 impactMed.impactOccurred()
             }
             
             if (value.translation.width > 50) {
+                print("🐶\(self.UIState.activeCard)")
+                if self.UIState.activeCard == 0 {
+                    return
+                }
                 self.UIState.activeCard = self.UIState.activeCard - 1
                 let impactMed = UIImpactFeedbackGenerator(style: .medium)
                 impactMed.impactOccurred()
@@ -168,7 +210,7 @@ struct Item<Content: View>: View {
 
     var body: some View {
         content
-            .frame(width: cardWidth, height: _id == UIState.activeCard ? cardHeight : cardHeight - 60, alignment: .center)
+            .frame(width: cardWidth, height: _id == UIState.activeCard ? cardHeight : cardHeight, alignment: .center)
     }
 }
 
