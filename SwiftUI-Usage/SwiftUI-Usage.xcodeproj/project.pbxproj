@@ -25,6 +25,7 @@
 		21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */; };
 		21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */; };
 		21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEB189232E1C430056215A /* LoadDataViewModel.swift */; };
+		21C1573524C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1573424C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift */; };
 		21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */; };
 		21C683702327F63700F60667 /* GestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6836F2327F63700F60667 /* GestureDemo.swift */; };
 		21C68372232801C500F60667 /* FormDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C68371232801C500F60667 /* FormDemo.swift */; };
@@ -61,6 +62,7 @@
 		21AFC36924251CD1008632BC /* SwiftUILab_PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILab_PreferenceKey.swift; sourceTree = "<group>"; };
 		21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataFromNetworkDemo.swift; sourceTree = "<group>"; };
 		21BEB189232E1C430056215A /* LoadDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataViewModel.swift; sourceTree = "<group>"; };
+		21C1573424C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarItemToolBarItemDemo.swift; sourceTree = "<group>"; };
 		21C6836D2326BA0900F60667 /* LifeCycleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemo.swift; sourceTree = "<group>"; };
 		21C6836F2327F63700F60667 /* GestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo.swift; sourceTree = "<group>"; };
 		21C68371232801C500F60667 /* FormDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemo.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				21C6837323291A9A00F60667 /* ShapeDemo.swift */,
 				21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */,
 				214459D623371A9500F9FAF7 /* PhotoPicker.swift */,
+				21C1573424C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */,
 				21E8523A23158F140093BCDF /* SceneDelegate.swift in Sources */,
 				21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */,
+				21C1573524C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift in Sources */,
 				21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */,
 				212B6B482324D6030013AD90 /* NavigationHiddenDemo.swift in Sources */,
 				21C68372232801C500F60667 /* FormDemo.swift in Sources */,
@@ -467,6 +471,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +495,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

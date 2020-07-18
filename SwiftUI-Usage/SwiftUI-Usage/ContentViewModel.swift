@@ -33,6 +33,8 @@ struct ContentViewModel {
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
                     ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
                     ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
+                    ListModel(title: "ToolBarItem(iOS14)", nextView: AnyView( ToolBarItemDemo() )),
+
     ]
 }
 
