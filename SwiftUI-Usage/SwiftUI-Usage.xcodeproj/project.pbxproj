@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16325EEB26FC53BE004559AE /* PointRandomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EE826FC53BE004559AE /* PointRandomization.swift */; };
+		16325EEC26FC53BE004559AE /* Colorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EE926FC53BE004559AE /* Colorful.swift */; };
+		16325EED26FC53BE004559AE /* ColorfulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EEA26FC53BE004559AE /* ColorfulView.swift */; };
+		16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EEE26FC53D9004559AE /* ColorfulDemo.swift */; };
+		16325EF226FC5C9F004559AE /* SineWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF126FC5C9F004559AE /* SineWaveShape.swift */; };
+		16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
 		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
 		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
@@ -45,6 +51,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16325EE826FC53BE004559AE /* PointRandomization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointRandomization.swift; sourceTree = "<group>"; };
+		16325EE926FC53BE004559AE /* Colorful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorful.swift; sourceTree = "<group>"; };
+		16325EEA26FC53BE004559AE /* ColorfulView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorfulView.swift; sourceTree = "<group>"; };
+		16325EEE26FC53D9004559AE /* ColorfulDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulDemo.swift; sourceTree = "<group>"; };
+		16325EF126FC5C9F004559AE /* SineWaveShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWaveShape.swift; sourceTree = "<group>"; };
+		16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWaveShapeDemo.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
 		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
 		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
@@ -97,6 +109,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16325EE726FC5391004559AE /* Colorful */ = {
+			isa = PBXGroup;
+			children = (
+				16325EE926FC53BE004559AE /* Colorful.swift */,
+				16325EEA26FC53BE004559AE /* ColorfulView.swift */,
+				16325EE826FC53BE004559AE /* PointRandomization.swift */,
+				16325EEE26FC53D9004559AE /* ColorfulDemo.swift */,
+			);
+			path = Colorful;
+			sourceTree = "<group>";
+		};
+		16325EF026FC5C94004559AE /* SineWave */ = {
+			isa = PBXGroup;
+			children = (
+				16325EF126FC5C9F004559AE /* SineWaveShape.swift */,
+				16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */,
+			);
+			path = SineWave;
+			sourceTree = "<group>";
+		};
 		215CCFD22483B28F00D9463F /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +230,8 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				16325EF026FC5C94004559AE /* SineWave */,
+				16325EE726FC5391004559AE /* Colorful */,
 				216CC77C2454268000BCDF73 /* HackingSwift */,
 				D5499DC22424D77F00C74D51 /* SwiftUI-Lab */,
 				21C6836C2326B9F500F60667 /* Others */,
@@ -319,19 +353,25 @@
 				166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */,
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,
+				16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
+				16325EEC26FC53BE004559AE /* Colorful.swift in Sources */,
 				216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */,
 				212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */,
 				21E8524F2316D0CA0093BCDF /* TextDemo.swift in Sources */,
+				16325EEB26FC53BE004559AE /* PointRandomization.swift in Sources */,
 				21C6837423291A9A00F60667 /* ShapeDemo.swift in Sources */,
 				212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */,
 				21E8523A23158F140093BCDF /* SceneDelegate.swift in Sources */,
 				21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */,
 				21C1573524C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift in Sources */,
 				21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */,
+				16325EF226FC5C9F004559AE /* SineWaveShape.swift in Sources */,
+				16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */,
 				212B6B482324D6030013AD90 /* NavigationHiddenDemo.swift in Sources */,
+				16325EED26FC53BE004559AE /* ColorfulView.swift in Sources */,
 				21C68372232801C500F60667 /* FormDemo.swift in Sources */,
 				21E8523C23158F140093BCDF /* ContentView.swift in Sources */,
 				212B6B462324A4580013AD90 /* NavigationViewDemo.swift in Sources */,

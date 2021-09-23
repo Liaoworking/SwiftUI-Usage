@@ -38,8 +38,8 @@ struct ContentViewModel {
                     ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
                     ListModel(title: "ToolBarItem(iOS14)", nextView: AnyView( ToolBarItemDemo() )),
                     ListModel(title: "UIKitInSwiftUIDemo", nextView: AnyView( UIKitInSwiftUIDemo() )),
-
-
+                    ListModel(title: "ColorfulDemo", nextView: AnyView( ColorfulDemo() )),
+                    ListModel(title: "SineWaveShapeDemo", nextView: AnyView( SineWaveShapeDemo() )),
     ]
 }
 
