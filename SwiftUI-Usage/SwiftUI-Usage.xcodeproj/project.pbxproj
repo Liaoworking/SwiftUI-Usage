@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
+		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
+		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
 		212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonDemo.swift */; };
 		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
 		212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF72320018B0013AD90 /* ListDemo.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
+		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
+		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
 		212B6AD3231C11610013AD90 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
 		212B6AF72320018B0013AD90 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 				21BEB184232E1BE30056215A /* LoadDataFromNetworkDemo.swift */,
 				214459D623371A9500F9FAF7 /* PhotoPicker.swift */,
 				21C1573424C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift */,
+				16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -208,6 +215,8 @@
 				212B6B4F2324F0F10013AD90 /* ToggleDemo.swift */,
 				212B6B522324F42B0013AD90 /* PickerDemo.swift */,
 				21C68371232801C500F60667 /* FormDemo.swift */,
+				166A6B76268D812700B1B955 /* PopOverDemo.swift */,
+				166A6B78268D81F000B1B955 /* MenuDemo.swift */,
 			);
 			path = UsageView;
 			sourceTree = "<group>";
@@ -300,12 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */,
 				21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */,
 				213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
 				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
 				212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */,
+				166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */,
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
@@ -326,6 +337,7 @@
 				212B6B462324A4580013AD90 /* NavigationViewDemo.swift in Sources */,
 				214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */,
 				212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */,
+				166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */,
 				212B6B4C2324E93A0013AD90 /* StepperDemo.swift in Sources */,
 				21AFC36A24251CD1008632BC /* SwiftUILab_PreferenceKey.swift in Sources */,
 				212B6B4A2324E47D0013AD90 /* TabViewDemo.swift in Sources */,

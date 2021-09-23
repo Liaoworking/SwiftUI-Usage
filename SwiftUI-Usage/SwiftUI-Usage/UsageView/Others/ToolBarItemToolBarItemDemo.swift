@@ -17,7 +17,7 @@ struct ToolBarItemDemo: View {
         }
         .navigationTitle("toolbarDemo")
         .toolbar {
-            ToolbarItem(placement: .primaryAction) {
+            ToolbarItem(placement: .navigationBarLeading) {
                 Button("New") {}
             }
             ToolbarItem(placement: .bottomBar) {
@@ -30,6 +30,7 @@ struct ToolBarItemDemo: View {
         }
     }
 }
+
 
 struct ToolBarItem_Previews: PreviewProvider {
     static var previews: some View {

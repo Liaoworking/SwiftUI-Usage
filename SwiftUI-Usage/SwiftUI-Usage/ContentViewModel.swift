@@ -28,12 +28,17 @@ struct ContentViewModel {
                     ListModel(title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
                     ListModel(title: "Gesture", nextView: AnyView( GestureDemo() )),
                     ListModel(title: "Shape", nextView: AnyView( ShapeDemo() )),
+                    ListModel(title: "PopOver", nextView: AnyView( PopOverDemo() )),
+                    ListModel(title: "Menu", nextView: AnyView( MenuDemo() )),
+
                     ListModel(title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
                     ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
                     ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
                     ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
                     ListModel(title: "ToolBarItem(iOS14)", nextView: AnyView( ToolBarItemDemo() )),
+                    ListModel(title: "UIKitInSwiftUIDemo", nextView: AnyView( UIKitInSwiftUIDemo() )),
+
 
     ]
 }
