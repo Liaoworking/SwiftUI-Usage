@@ -17,6 +17,7 @@
 		165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
 		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
+		169599E4282629F000AFAB8A /* ScrollViewReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */; };
 		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
 		212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonDemo.swift */; };
 		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
@@ -63,6 +64,7 @@
 		165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUIDemo.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
 		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
+		169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderDemo.swift; sourceTree = "<group>"; };
 		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
 		212B6AD3231C11610013AD90 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 				165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */,
 			);
 			path = ParallaxSwiftUI;
+			sourceTree = "<group>";
+		};
+		169599E2282629D900AFAB8A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		215CCFD22483B28F00D9463F /* Animation */ = {
@@ -252,6 +262,7 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				169599E2282629D900AFAB8A /* Feature */,
 				16325EF026FC5C94004559AE /* SineWave */,
 				16325EE726FC5391004559AE /* Colorful */,
 				216CC77C2454268000BCDF73 /* HackingSwift */,
@@ -391,6 +402,7 @@
 				21C6836E2326BA0900F60667 /* LifeCycleDemo.swift in Sources */,
 				21C1573524C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift in Sources */,
 				21BEB185232E1BE30056215A /* LoadDataFromNetworkDemo.swift in Sources */,
+				169599E4282629F000AFAB8A /* ScrollViewReaderDemo.swift in Sources */,
 				16325EF226FC5C9F004559AE /* SineWaveShape.swift in Sources */,
 				16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */,
 				212B6B482324D6030013AD90 /* NavigationHiddenDemo.swift in Sources */,

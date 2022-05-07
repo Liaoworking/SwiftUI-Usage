@@ -41,6 +41,7 @@ struct ContentViewModel {
                     ListModel(title: "ColorfulDemo", nextView: AnyView( ColorfulDemo() )),
                     ListModel(title: "SineWaveShapeDemo", nextView: AnyView( SineWaveShapeDemo() )),
                       ListModel(title: "ParallaxSwiftUIDemo", nextView: AnyView( ParallaxSwiftUIDemo() )),
+                      ListModel(title: "ScrollViewReaderDemo", nextView: AnyView( ScrollViewReaderDemo() )),
 
     ]
 }
