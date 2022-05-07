@@ -13,6 +13,8 @@
 		16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EEE26FC53D9004559AE /* ColorfulDemo.swift */; };
 		16325EF226FC5C9F004559AE /* SineWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF126FC5C9F004559AE /* SineWaveShape.swift */; };
 		16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */; };
+		165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */; };
+		165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
 		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
 		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
@@ -57,6 +59,8 @@
 		16325EEE26FC53D9004559AE /* ColorfulDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulDemo.swift; sourceTree = "<group>"; };
 		16325EF126FC5C9F004559AE /* SineWaveShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWaveShape.swift; sourceTree = "<group>"; };
 		16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWaveShapeDemo.swift; sourceTree = "<group>"; };
+		165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUI.swift; sourceTree = "<group>"; };
+		165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUIDemo.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
 		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
 		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
@@ -127,6 +131,23 @@
 				16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */,
 			);
 			path = SineWave;
+			sourceTree = "<group>";
+		};
+		165E32FB27FABA09005A8A14 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				165E32FC27FABA16005A8A14 /* ParallaxSwiftUI */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		165E32FC27FABA16005A8A14 /* ParallaxSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */,
+				165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */,
+			);
+			path = ParallaxSwiftUI;
 			sourceTree = "<group>";
 		};
 		215CCFD22483B28F00D9463F /* Animation */ = {
@@ -203,6 +224,7 @@
 		21E8523623158F140093BCDF /* SwiftUI-Usage */ = {
 			isa = PBXGroup;
 			children = (
+				165E32FB27FABA09005A8A14 /* Others */,
 				215CCFD22483B28F00D9463F /* Animation */,
 				214459D823371C8200F9FAF7 /* SwiftUI-Usage.entitlements */,
 				21BEB188232E1C190056215A /* viewModel */,
@@ -355,6 +377,7 @@
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,
 				16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
+				165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */,
 				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
 				16325EEC26FC53BE004559AE /* Colorful.swift in Sources */,
@@ -375,6 +398,7 @@
 				21C68372232801C500F60667 /* FormDemo.swift in Sources */,
 				21E8523C23158F140093BCDF /* ContentView.swift in Sources */,
 				212B6B462324A4580013AD90 /* NavigationViewDemo.swift in Sources */,
+				165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */,
 				214459D723371A9500F9FAF7 /* PhotoPicker.swift in Sources */,
 				212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */,
 				166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */,
@@ -523,7 +547,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,7 +571,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
