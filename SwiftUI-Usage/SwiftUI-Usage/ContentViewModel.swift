@@ -44,6 +44,10 @@ struct ContentViewModel {
                     ListModel(title: "ScrollViewReaderDemo", nextView: AnyView( ScrollViewReaderDemo() )),
                     ListModel(title: "Transaction", nextView: AnyView( TransactionAnimation() )),
                     ListModel(title: "IsContinuous", nextView: AnyView( IsContinuous() )),
+                    ListModel(title: "BindingTransaction", nextView: AnyView( BindingTransaction() )),
+                    ListModel(title: "TransitionDemo", nextView: AnyView( TransitionDemo() )),
+                    ListModel(title: "CustomTransitionDemo", nextView: AnyView( CustomTransitionDemo() )),
+                    ListModel(title: "OthersAnimation", nextView: AnyView( OthersAnimation() )),
 
                       
     ]

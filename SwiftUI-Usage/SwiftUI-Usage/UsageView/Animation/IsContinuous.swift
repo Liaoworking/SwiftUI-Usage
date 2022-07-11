@@ -17,9 +17,11 @@ struct IsContinuous: View {
                 .offset(x: position.x, y: position.y)
                 .transaction {
                     if $0.isContinuous {
-                        $0.animation = nil // 拖动时，不设置时序曲线函数
+                        $0.animation = nil // 拖动时，不设置时序曲线函数\
+                        print("nil")
                     } else {
                         $0.animation = .easeInOut(duration: 1)
+                        print("easeinOut")
                     }
                 }
                 .gesture(
@@ -27,6 +29,7 @@ struct IsContinuous: View {
                         .updating($position, body: { current, state, transaction in
                             state = .init(x: current.translation.width, y: current.translation.height)
                             transaction.isContinuous = true // 拖动时，设置标识
+                            print("every time when call updating will call ∑transaction∑∑")
                         })
                 )
         }
