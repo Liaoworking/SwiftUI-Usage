@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1630BB86287A7FE000C17967 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630BB85287A7FE000C17967 /* Transaction.swift */; };
+		1630BB88287A810C00C17967 /* IsContinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630BB87287A810C00C17967 /* IsContinuous.swift */; };
 		16325EEB26FC53BE004559AE /* PointRandomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EE826FC53BE004559AE /* PointRandomization.swift */; };
 		16325EEC26FC53BE004559AE /* Colorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EE926FC53BE004559AE /* Colorful.swift */; };
 		16325EED26FC53BE004559AE /* ColorfulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EEA26FC53BE004559AE /* ColorfulView.swift */; };
@@ -54,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1630BB85287A7FE000C17967 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		1630BB87287A810C00C17967 /* IsContinuous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsContinuous.swift; sourceTree = "<group>"; };
 		16325EE826FC53BE004559AE /* PointRandomization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointRandomization.swift; sourceTree = "<group>"; };
 		16325EE926FC53BE004559AE /* Colorful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorful.swift; sourceTree = "<group>"; };
 		16325EEA26FC53BE004559AE /* ColorfulView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorfulView.swift; sourceTree = "<group>"; };
@@ -115,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1630BB84287A7FAE00C17967 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1630BB85287A7FE000C17967 /* Transaction.swift */,
+				1630BB87287A810C00C17967 /* IsContinuous.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		16325EE726FC5391004559AE /* Colorful */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +275,7 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				1630BB84287A7FAE00C17967 /* Animation */,
 				169599E2282629D900AFAB8A /* Feature */,
 				16325EF026FC5C94004559AE /* SineWave */,
 				16325EE726FC5391004559AE /* Colorful */,
@@ -379,6 +393,7 @@
 				16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */,
 				21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */,
 				213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */,
+				1630BB88287A810C00C17967 /* IsContinuous.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
 				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
@@ -387,6 +402,7 @@
 				21E8524C2316CCD50093BCDF /* ContentViewModel.swift in Sources */,
 				212B6AFC232163CD0013AD90 /* ActionSheetDemo.swift in Sources */,
 				16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */,
+				1630BB86287A7FE000C17967 /* Transaction.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */,
 				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,

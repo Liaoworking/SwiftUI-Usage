@@ -40,9 +40,12 @@ struct ContentViewModel {
                     ListModel(title: "UIKitInSwiftUIDemo", nextView: AnyView( UIKitInSwiftUIDemo() )),
                     ListModel(title: "ColorfulDemo", nextView: AnyView( ColorfulDemo() )),
                     ListModel(title: "SineWaveShapeDemo", nextView: AnyView( SineWaveShapeDemo() )),
-                      ListModel(title: "ParallaxSwiftUIDemo", nextView: AnyView( ParallaxSwiftUIDemo() )),
-                      ListModel(title: "ScrollViewReaderDemo", nextView: AnyView( ScrollViewReaderDemo() )),
+                    ListModel(title: "ParallaxSwiftUIDemo", nextView: AnyView( ParallaxSwiftUIDemo() )),
+                    ListModel(title: "ScrollViewReaderDemo", nextView: AnyView( ScrollViewReaderDemo() )),
+                    ListModel(title: "Transaction", nextView: AnyView( TransactionAnimation() )),
+                    ListModel(title: "IsContinuous", nextView: AnyView( IsContinuous() )),
 
+                      
     ]
 }
 
