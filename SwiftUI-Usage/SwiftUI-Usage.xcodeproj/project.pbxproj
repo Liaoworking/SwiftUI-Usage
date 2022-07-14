@@ -25,6 +25,7 @@
 		16C6F0AB287BD00E00262751 /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AA287BD00E00262751 /* TransitionDemo.swift */; };
 		16C6F0AD287BD28700262751 /* CustomTransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AC287BD28700262751 /* CustomTransitionDemo.swift */; };
 		16C6F0AF287BD44300262751 /* OthersAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AE287BD44300262751 /* OthersAnimation.swift */; };
+		16DCA71C287FC42A00901071 /* MyPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DCA71B287FC42A00901071 /* MyPublished.swift */; };
 		212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonDemo.swift */; };
 		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
 		212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF72320018B0013AD90 /* ListDemo.swift */; };
@@ -78,6 +79,7 @@
 		16C6F0AA287BD00E00262751 /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		16C6F0AC287BD28700262751 /* CustomTransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionDemo.swift; sourceTree = "<group>"; };
 		16C6F0AE287BD44300262751 /* OthersAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersAnimation.swift; sourceTree = "<group>"; };
+		16DCA71B287FC42A00901071 /* MyPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublished.swift; sourceTree = "<group>"; };
 		212B6AD3231C11610013AD90 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
 		212B6AF72320018B0013AD90 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
@@ -185,6 +187,14 @@
 			path = Feature;
 			sourceTree = "<group>";
 		};
+		16DCA71A287FC40800901071 /* AboutCombine */ = {
+			isa = PBXGroup;
+			children = (
+				16DCA71B287FC42A00901071 /* MyPublished.swift */,
+			);
+			path = AboutCombine;
+			sourceTree = "<group>";
+		};
 		215CCFD22483B28F00D9463F /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +297,7 @@
 		21E8524D2316D08F0093BCDF /* UsageView */ = {
 			isa = PBXGroup;
 			children = (
+				16DCA71A287FC40800901071 /* AboutCombine */,
 				1630BB84287A7FAE00C17967 /* Animation */,
 				169599E2282629D900AFAB8A /* Feature */,
 				16325EF026FC5C94004559AE /* SineWave */,
@@ -420,6 +431,7 @@
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */,
 				D5499DC52424D7B500C74D51 /* SwiftUILab_AnchorPreferences.swift in Sources */,
+				16DCA71C287FC42A00901071 /* MyPublished.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
 				16325EEC26FC53BE004559AE /* Colorful.swift in Sources */,
 				216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */,
