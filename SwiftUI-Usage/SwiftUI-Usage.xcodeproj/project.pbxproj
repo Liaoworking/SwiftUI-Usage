@@ -33,6 +33,7 @@
 		169E4C8D2881386D00718F32 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4C8C2881386D00718F32 /* SimpleCell.swift */; };
 		169E4C902881389B00718F32 /* SimpleRefreshingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4C8F2881389B00718F32 /* SimpleRefreshingView.swift */; };
 		169E4C92288138C200718F32 /* SimplePullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4C91288138C200718F32 /* SimplePullToRefreshView.swift */; };
+		169E4CB028814BC200718F32 /* ListGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4CAF28814BC200718F32 /* ListGeometryReader.swift */; };
 		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
 		16C6F0A9287BCB5800262751 /* BindingTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0A8287BCB5800262751 /* BindingTransaction.swift */; };
 		16C6F0AB287BD00E00262751 /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AA287BD00E00262751 /* TransitionDemo.swift */; };
@@ -100,6 +101,7 @@
 		169E4C8C2881386D00718F32 /* SimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
 		169E4C8F2881389B00718F32 /* SimpleRefreshingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRefreshingView.swift; sourceTree = "<group>"; };
 		169E4C91288138C200718F32 /* SimplePullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePullToRefreshView.swift; sourceTree = "<group>"; };
+		169E4CAF28814BC200718F32 /* ListGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGeometryReader.swift; sourceTree = "<group>"; };
 		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
 		16C6F0A8287BCB5800262751 /* BindingTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTransaction.swift; sourceTree = "<group>"; };
 		16C6F0AA287BD00E00262751 /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */,
+				169E4CAF28814BC200718F32 /* ListGeometryReader.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				169E4C872881377900718F32 /* Header.swift in Sources */,
 				169E4C852881377900718F32 /* Footer.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
+				169E4CB028814BC200718F32 /* ListGeometryReader.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
 				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
 				212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */,

@@ -45,11 +45,11 @@ extension Refresh.Modifier: ViewModifier {
                 .clipped(proxy.safeAreaInsets == .zero)
                 .backgroundPreferenceValue(Refresh.HeaderAnchorKey.self) { v -> Color in
                     DispatchQueue.main.async { self.update(proxy: proxy, value: v) }
-                    return Color.clear
+                    return Color.red
                 }
                 .backgroundPreferenceValue(Refresh.FooterAnchorKey.self) { v -> Color in
                     DispatchQueue.main.async { self.update(proxy: proxy, value: v) }
-                    return Color.clear
+                    return Color.gray
                 }
                 .id(self.id)
         }
