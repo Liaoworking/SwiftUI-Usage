@@ -48,7 +48,8 @@ struct ContentViewModel {
                     ListModel(title: "TransitionDemo", nextView: AnyView( TransitionDemo() )),
                     ListModel(title: "CustomTransitionDemo", nextView: AnyView( CustomTransitionDemo() )),
                     ListModel(title: "OthersAnimation", nextView: AnyView( OthersAnimation() )),
-
+                    ListModel(title: "PullToRefreshView", nextView: AnyView( PullToRefreshView() )),
+                      
                       
     ]
 }

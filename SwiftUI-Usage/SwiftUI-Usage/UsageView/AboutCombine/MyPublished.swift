@@ -74,7 +74,7 @@ struct TestMyPublished {
         let c2 = object.$name.sink{
             print("name will get new value \($0)")
         }
-
+        print(c1,c2)
         object.name = "bob"
 
     }
