@@ -28,7 +28,7 @@ struct TypingTextDemo: View {
             
         }.onAppear(perform: {
 
-            withAnimation(.easeInOut(duration: 1).delay(25).speed(0.6)) {
+            withAnimation(.easeInOut(duration: 1).delay(1).speed(0.6)) {
                 for chara in contentText {
                     displayText.append(chara)
                 }
