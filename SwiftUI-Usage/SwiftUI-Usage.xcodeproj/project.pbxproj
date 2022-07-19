@@ -15,6 +15,8 @@
 		16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EEE26FC53D9004559AE /* ColorfulDemo.swift */; };
 		16325EF226FC5C9F004559AE /* SineWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF126FC5C9F004559AE /* SineWaveShape.swift */; };
 		16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */; };
+		163E48632886593D00E50249 /* TypingTextAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E48622886593D00E50249 /* TypingTextAnimationView.swift */; };
+		163E486528866EC500E50249 /* TypingTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E486428866EC500E50249 /* TypingTextDemo.swift */; };
 		165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */; };
 		165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
@@ -83,6 +85,8 @@
 		16325EEE26FC53D9004559AE /* ColorfulDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulDemo.swift; sourceTree = "<group>"; };
 		16325EF126FC5C9F004559AE /* SineWaveShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWaveShape.swift; sourceTree = "<group>"; };
 		16325EF326FC5CDD004559AE /* SineWaveShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWaveShapeDemo.swift; sourceTree = "<group>"; };
+		163E48622886593D00E50249 /* TypingTextAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextAnimationView.swift; sourceTree = "<group>"; };
+		163E486428866EC500E50249 /* TypingTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextDemo.swift; sourceTree = "<group>"; };
 		165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUI.swift; sourceTree = "<group>"; };
 		165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUIDemo.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				16C6F0AA287BD00E00262751 /* TransitionDemo.swift */,
 				16C6F0AC287BD28700262751 /* CustomTransitionDemo.swift */,
 				16C6F0AE287BD44300262751 /* OthersAnimation.swift */,
+				163E48622886593D00E50249 /* TypingTextAnimationView.swift */,
+				163E486428866EC500E50249 /* TypingTextDemo.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -473,6 +479,7 @@
 			files = (
 				16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */,
 				21BEB18A232E1C430056215A /* LoadDataViewModel.swift in Sources */,
+				163E48632886593D00E50249 /* TypingTextAnimationView.swift in Sources */,
 				213E9B2A231BD60D00CD2E4C /* ImageDemo.swift in Sources */,
 				1630BB88287A810C00C17967 /* IsContinuous.swift in Sources */,
 				169E4C822881377900718F32 /* HeaderKey.swift in Sources */,
@@ -490,6 +497,7 @@
 				16325EF426FC5CDD004559AE /* SineWaveShapeDemo.swift in Sources */,
 				16C6F0A9287BCB5800262751 /* BindingTransaction.swift in Sources */,
 				1630BB86287A7FE000C17967 /* Transaction.swift in Sources */,
+				163E486528866EC500E50249 /* TypingTextDemo.swift in Sources */,
 				16C6F0AD287BD28700262751 /* CustomTransitionDemo.swift in Sources */,
 				21E8523823158F140093BCDF /* AppDelegate.swift in Sources */,
 				165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */,
@@ -670,7 +678,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Usage/SwiftUI-Usage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUI-Usage/Preview\\ Content";
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
@@ -694,7 +701,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Usage/SwiftUI-Usage.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUI-Usage/Preview\\ Content";
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;

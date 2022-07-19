@@ -51,6 +51,12 @@ struct ContentViewModel {
                     ListModel(title: "PullToRefreshView", nextView: AnyView( PullToRefreshView() )),
                     ListModel(title: "ListGeometryReader", nextView: AnyView( ListGeometryReader() )),
                       
+                    ListModel(title: "TypingTextAnimationViewDemo", nextView: AnyView( TypingTextAnimationViewDemo() )),
+
+                    ListModel(title: "TypingTextDemo", nextView: AnyView( TypingTextDemo() )),
+
+                      
+                      
     ]
 }
 
