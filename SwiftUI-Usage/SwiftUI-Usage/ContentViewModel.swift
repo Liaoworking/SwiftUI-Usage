@@ -30,7 +30,6 @@ struct ContentViewModel {
                     ListModel(title: "Shape", nextView: AnyView( ShapeDemo() )),
                     ListModel(title: "PopOver", nextView: AnyView( PopOverDemo() )),
                     ListModel(title: "Menu", nextView: AnyView( MenuDemo() )),
-
                     ListModel(title: "LoadDataFromNetwork", nextView: AnyView( LoadDataFromNetworkDemo() )),
                     ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
@@ -50,13 +49,9 @@ struct ContentViewModel {
                     ListModel(title: "OthersAnimation", nextView: AnyView( OthersAnimation() )),
                     ListModel(title: "PullToRefreshView", nextView: AnyView( PullToRefreshView() )),
                     ListModel(title: "ListGeometryReader", nextView: AnyView( ListGeometryReader() )),
-                      
                     ListModel(title: "TypingTextAnimationViewDemo", nextView: AnyView( TypingTextAnimationViewDemo() )),
-
                     ListModel(title: "TypingTextDemo", nextView: AnyView( TypingTextDemo() )),
-
-                      
-                      
+                    ListModel(title: "AdvancedAnimations", nextView: AnyView( AdvancedAnimations() )),
     ]
 }
 
