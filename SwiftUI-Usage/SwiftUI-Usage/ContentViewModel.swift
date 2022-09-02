@@ -52,6 +52,9 @@ struct ContentViewModel {
                     ListModel(title: "TypingTextAnimationViewDemo", nextView: AnyView( TypingTextAnimationViewDemo() )),
                     ListModel(title: "TypingTextDemo", nextView: AnyView( TypingTextDemo() )),
                     ListModel(title: "AdvancedAnimations", nextView: AnyView( AdvancedAnimations() )),
+                    ListModel(title: "NeumorphicButton", nextView: AnyView( NeumorphicButton() )),
+
+                      
     ]
 }
 
