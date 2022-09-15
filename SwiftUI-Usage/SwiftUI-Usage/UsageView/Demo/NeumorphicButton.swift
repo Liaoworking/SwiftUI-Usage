@@ -21,7 +21,7 @@ struct NeumorphicButton_Previews: PreviewProvider {
         ZStack {
             NeumorphicButton().padding(20)
         }
-        .background(Color("background"))
+        .background(Color("neumorphic-button-background"))
         .previewLayout(.sizeThatFits)
     }
 }

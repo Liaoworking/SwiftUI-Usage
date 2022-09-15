@@ -19,6 +19,7 @@
 		163E486528866EC500E50249 /* TypingTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E486428866EC500E50249 /* TypingTextDemo.swift */; };
 		165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */; };
 		165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */; };
+		1665CD3228D33AB000BF7786 /* TabViewDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665CD3128D33AB000BF7786 /* TabViewDemo2.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
 		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
 		169599E4282629F000AFAB8A /* ScrollViewReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */; };
@@ -92,6 +93,7 @@
 		163E486428866EC500E50249 /* TypingTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextDemo.swift; sourceTree = "<group>"; };
 		165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUI.swift; sourceTree = "<group>"; };
 		165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUIDemo.swift; sourceTree = "<group>"; };
+		1665CD3128D33AB000BF7786 /* TabViewDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo2.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
 		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
 		169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderDemo.swift; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 				212B6B452324A4580013AD90 /* NavigationViewDemo.swift */,
 				212B6B472324D6030013AD90 /* NavigationHiddenDemo.swift */,
 				212B6B492324E47D0013AD90 /* TabViewDemo.swift */,
+				1665CD3128D33AB000BF7786 /* TabViewDemo2.swift */,
 				212B6B4B2324E93A0013AD90 /* StepperDemo.swift */,
 				212B6B4F2324F0F10013AD90 /* ToggleDemo.swift */,
 				212B6B522324F42B0013AD90 /* PickerDemo.swift */,
@@ -504,6 +507,7 @@
 				169E4C852881377900718F32 /* Footer.swift in Sources */,
 				212B6AFA23200E6A0013AD90 /* SliderDemo.swift in Sources */,
 				169E4CB028814BC200718F32 /* ListGeometryReader.swift in Sources */,
+				1665CD3228D33AB000BF7786 /* TabViewDemo2.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
 				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
 				212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */,

@@ -23,6 +23,7 @@ struct ContentViewModel {
                     ListModel(title: "UIAlertController -> ActionSheet & Alert", nextView: AnyView( ActionSheetDemo() )),
                     ListModel(title: "UINavigationController -> NavigationView", nextView: AnyView( NavigationViewDemo() )),
                     ListModel(title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
+                    ListModel(title: "TabView2", nextView: AnyView( TabViewDemo2() )),
                     ListModel(title: "Stpper", nextView: AnyView( StepperDemo() )),
                     ListModel(title: "Form", nextView: AnyView( FormDemo() )),
                     ListModel(title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
@@ -53,8 +54,8 @@ struct ContentViewModel {
                     ListModel(title: "TypingTextDemo", nextView: AnyView( TypingTextDemo() )),
                     ListModel(title: "AdvancedAnimations", nextView: AnyView( AdvancedAnimations() )),
                     ListModel(title: "NeumorphicButton", nextView: AnyView( NeumorphicButton() )),
+                    ListModel(title: "EmbossedButton", nextView: AnyView( EmbossedButtonDemo() )),
 
-                      
     ]
 }
 
