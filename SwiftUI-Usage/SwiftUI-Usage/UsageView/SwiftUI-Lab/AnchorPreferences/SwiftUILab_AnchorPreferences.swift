@@ -99,7 +99,6 @@ struct MonthView: View {
         Text(label)
             .padding(10).background(Color.pink)
             .anchorPreference(key:GHTestPreferenceKey.self,value: .bounds, transform: {[MyTextPreferenceData(viewIdx: self.idx, bounds: $0)]})
-//            .anchorPreference(key: MyTextPreferenceKey.self, value: .bounds, transform: { [MyTextPreferenceData(viewIdx: self.idx, bounds: $0)] })
             .onTapGesture { self.activeMonth = self.idx }
     }
 }

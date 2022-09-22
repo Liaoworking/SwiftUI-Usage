@@ -25,6 +25,7 @@ struct ContentViewModel {
                     ListModel(title: "UITabBarViewController -> TabView", nextView: AnyView( TabViewDemo() )),
                     ListModel(title: "TabView2", nextView: AnyView( TabViewDemo2() )),
                     ListModel(title: "Stpper", nextView: AnyView( StepperDemo() )),
+                    ListModel(title: "DIYSegmentViewDemo", nextView: AnyView( DIYSegmentViewDemo() )),                      
                     ListModel(title: "Form", nextView: AnyView( FormDemo() )),
                     ListModel(title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
                     ListModel(title: "Gesture", nextView: AnyView( GestureDemo() )),

@@ -20,6 +20,7 @@
 		165E32FE27FABA16005A8A14 /* ParallaxSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */; };
 		165E330227FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */; };
 		1665CD3228D33AB000BF7786 /* TabViewDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665CD3128D33AB000BF7786 /* TabViewDemo2.swift */; };
+		166A0CDD28DAE3F300041653 /* DIYSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A0CDC28DAE3F300041653 /* DIYSegmentView.swift */; };
 		166A6B77268D812800B1B955 /* PopOverDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B76268D812700B1B955 /* PopOverDemo.swift */; };
 		166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166A6B78268D81F000B1B955 /* MenuDemo.swift */; };
 		169599E4282629F000AFAB8A /* ScrollViewReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */; };
@@ -94,6 +95,7 @@
 		165E32FD27FABA16005A8A14 /* ParallaxSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUI.swift; sourceTree = "<group>"; };
 		165E330127FABAE1005A8A14 /* ParallaxSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxSwiftUIDemo.swift; sourceTree = "<group>"; };
 		1665CD3128D33AB000BF7786 /* TabViewDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo2.swift; sourceTree = "<group>"; };
+		166A0CDC28DAE3F300041653 /* DIYSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIYSegmentView.swift; sourceTree = "<group>"; };
 		166A6B76268D812700B1B955 /* PopOverDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverDemo.swift; sourceTree = "<group>"; };
 		166A6B78268D81F000B1B955 /* MenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemo.swift; sourceTree = "<group>"; };
 		169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderDemo.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 				21C1573424C2E9F4000926B1 /* ToolBarItemToolBarItemDemo.swift */,
 				16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */,
 				169E4C76288135D600718F32 /* PullToRefreshView.swift */,
+				166A0CDC28DAE3F300041653 /* DIYSegmentView.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				1665CD3228D33AB000BF7786 /* TabViewDemo2.swift in Sources */,
 				21C683702327F63700F60667 /* GestureDemo.swift in Sources */,
 				215CCFD42483B2B100D9463F /* SnapCarouselView.swift in Sources */,
+				166A0CDD28DAE3F300041653 /* DIYSegmentView.swift in Sources */,
 				212B6B502324F0F10013AD90 /* ToggleDemo.swift in Sources */,
 				169E4C882881377900718F32 /* List+Refresh.swift in Sources */,
 				166A6B79268D81F000B1B955 /* MenuDemo.swift in Sources */,
@@ -711,6 +715,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liaoworking.SwiftUI-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -734,6 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liaoworking.SwiftUI-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
