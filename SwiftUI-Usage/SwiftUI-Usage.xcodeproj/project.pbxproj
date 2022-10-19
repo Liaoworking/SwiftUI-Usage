@@ -47,6 +47,7 @@
 		16CC27C728C1FD9000A0513D /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC27C628C1FD9000A0513D /* NeumorphicButton.swift */; };
 		16CC27CC28C206BD00A0513D /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC27CB28C206BD00A0513D /* EmbossedButton.swift */; };
 		16DCA71C287FC42A00901071 /* MyPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DCA71B287FC42A00901071 /* MyPublished.swift */; };
+		16EC2EF128FFCA5A00A7A911 /* TextSelectionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */; };
 		212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonDemo.swift */; };
 		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
 		212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF72320018B0013AD90 /* ListDemo.swift */; };
@@ -122,6 +123,7 @@
 		16CC27C628C1FD9000A0513D /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
 		16CC27CB28C206BD00A0513D /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
 		16DCA71B287FC42A00901071 /* MyPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublished.swift; sourceTree = "<group>"; };
+		16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionDemo.swift; sourceTree = "<group>"; };
 		212B6AD3231C11610013AD90 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
 		212B6AF72320018B0013AD90 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */,
 				169E4C76288135D600718F32 /* PullToRefreshView.swift */,
 				166A0CDC28DAE3F300041653 /* DIYSegmentView.swift */,
+				16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
 				16CC27C728C1FD9000A0513D /* NeumorphicButton.swift in Sources */,
 				16325EEC26FC53BE004559AE /* Colorful.swift in Sources */,
+				16EC2EF128FFCA5A00A7A911 /* TextSelectionDemo.swift in Sources */,
 				169E4C8B2881385200718F32 /* ActivityIndicator.swift in Sources */,
 				216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */,
 				212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */,

@@ -27,6 +27,7 @@ struct ContentViewModel {
                     ListModel(title: "Stpper", nextView: AnyView( StepperDemo() )),
                     ListModel(title: "DIYSegmentViewDemo", nextView: AnyView( DIYSegmentViewDemo() )),                      
                     ListModel(title: "Form", nextView: AnyView( FormDemo() )),
+                    ListModel(title: "TextSelectionDemo", nextView: AnyView( TextSelectionDemo() )),
                     ListModel(title: "LifeCycle", nextView: AnyView( LifeCycleDemo() )),
                     ListModel(title: "Gesture", nextView: AnyView( GestureDemo() )),
                     ListModel(title: "Shape", nextView: AnyView( ShapeDemo() )),
