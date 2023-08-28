@@ -37,7 +37,7 @@ struct ContentViewModel {
                     ListModel(title: "ImagePicker", nextView: AnyView( ImagePickerDemo() )),
                     ListModel(title: "SwiftUI-Lab_AnchorPreferences", nextView: AnyView( SwiftUILab_AnchorPreferences() )),
                     ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
-                    ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
+//                    ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
                     ListModel(title: "ToolBarItem(iOS14)", nextView: AnyView( ToolBarItemDemo() )),
                     ListModel(title: "UIKitInSwiftUIDemo", nextView: AnyView( UIKitInSwiftUIDemo() )),
                     ListModel(title: "ColorfulDemo", nextView: AnyView( ColorfulDemo() )),
@@ -57,7 +57,10 @@ struct ContentViewModel {
                     ListModel(title: "AdvancedAnimations", nextView: AnyView( AdvancedAnimations() )),
                     ListModel(title: "NeumorphicButton", nextView: AnyView( NeumorphicButton() )),
                     ListModel(title: "EmbossedButton", nextView: AnyView( EmbossedButtonDemo() )),
-
+                    ListModel(title: "PullToRefreshDemo", nextView: AnyView( PullToRefreshDemo() )),
+                      ListModel(title: "AdvancedAnimationPart5", nextView: AnyView( AdvancedAnimationPart5() )),
+                      ListModel(title: "AdvancedAnimationPart4_TimelineView", nextView: AnyView( AdvancedAnimationPart4_TimelineView() )),
+                      ListModel(title: "AdvancedAnimation5_WordRain", nextView: AnyView( AdvancedAnimation5_WordRain() )),
     ]
 }
 
