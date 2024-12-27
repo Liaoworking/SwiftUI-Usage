@@ -9,21 +9,38 @@
 import Foundation
 import SwiftUI
 
-struct TabViewDemo2: View {
-    var body: some View {
-        TabView {
-            Text("111111111")
-            Text("222222")
-            Text("3333")
-            Text("44444")
-            Text("555555")
+enum TabType: String, CaseIterable {
+    case first
+    case second
+    case third
+    case forth
+    
+}
 
-        }
+struct TabViewDemo2: View {
+    
+    @StateObject private var tabStore = TabStore()
+    
+    var body: some View {
+        TabView(selection: $tabStore.tabType,
+                content:  {
+            ForEach(TabType.allCases,id: \.self) { tabType in
+                Text(tabType.rawValue)
+            }
+        })
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
 
     }
 }
 
+
+class TabStore: ObservableObject {
+    @Published var tabType: TabType = .first {
+        didSet {
+            print("current:",tabType)
+        }
+    }
+}
 
 #if DEBUG
 struct TabViewDemo2_Preview: PreviewProvider {
