@@ -44,6 +44,8 @@
 		169E4CB028814BC200718F32 /* ListGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4CAF28814BC200718F32 /* ListGeometryReader.swift */; };
 		16A8E78228B9CBF6007F53B6 /* AdvancedAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A8E78128B9CBF6007F53B6 /* AdvancedAnimations.swift */; };
 		16AF993626F34D03007DA354 /* UIKitInSwiftUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */; };
+		16B95D982D95246100F689C2 /* SystemCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B95D972D95246100F689C2 /* SystemCameraView.swift */; };
+		16B95D9A2D95248700F689C2 /* SystemCameraViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B95D992D95248700F689C2 /* SystemCameraViewDemo.swift */; };
 		16C6F0A9287BCB5800262751 /* BindingTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0A8287BCB5800262751 /* BindingTransaction.swift */; };
 		16C6F0AB287BD00E00262751 /* TransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AA287BD00E00262751 /* TransitionDemo.swift */; };
 		16C6F0AD287BD28700262751 /* CustomTransitionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F0AC287BD28700262751 /* CustomTransitionDemo.swift */; };
@@ -52,6 +54,7 @@
 		16CC27CC28C206BD00A0513D /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC27CB28C206BD00A0513D /* EmbossedButton.swift */; };
 		16DCA71C287FC42A00901071 /* MyPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DCA71B287FC42A00901071 /* MyPublished.swift */; };
 		16EC2EF128FFCA5A00A7A911 /* TextSelectionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */; };
+		16FC958F2D8C30D70089CE71 /* CompatibleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FC958E2D8C30D70089CE71 /* CompatibleScrollView.swift */; };
 		212B6AD4231C11610013AD90 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AD3231C11610013AD90 /* ButtonDemo.swift */; };
 		212B6AF6231EBC5F0013AD90 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */; };
 		212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B6AF72320018B0013AD90 /* ListDemo.swift */; };
@@ -124,6 +127,8 @@
 		169E4CAF28814BC200718F32 /* ListGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGeometryReader.swift; sourceTree = "<group>"; };
 		16A8E78128B9CBF6007F53B6 /* AdvancedAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedAnimations.swift; sourceTree = "<group>"; };
 		16AF993526F34D03007DA354 /* UIKitInSwiftUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitInSwiftUIDemo.swift; sourceTree = "<group>"; };
+		16B95D972D95246100F689C2 /* SystemCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCameraView.swift; sourceTree = "<group>"; };
+		16B95D992D95248700F689C2 /* SystemCameraViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCameraViewDemo.swift; sourceTree = "<group>"; };
 		16C6F0A8287BCB5800262751 /* BindingTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTransaction.swift; sourceTree = "<group>"; };
 		16C6F0AA287BD00E00262751 /* TransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemo.swift; sourceTree = "<group>"; };
 		16C6F0AC287BD28700262751 /* CustomTransitionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionDemo.swift; sourceTree = "<group>"; };
@@ -132,6 +137,7 @@
 		16CC27CB28C206BD00A0513D /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
 		16DCA71B287FC42A00901071 /* MyPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublished.swift; sourceTree = "<group>"; };
 		16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionDemo.swift; sourceTree = "<group>"; };
+		16FC958E2D8C30D70089CE71 /* CompatibleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleScrollView.swift; sourceTree = "<group>"; };
 		212B6AD3231C11610013AD90 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		212B6AF5231EBC5F0013AD90 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemo.swift; sourceTree = "<group>"; };
 		212B6AF72320018B0013AD90 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
@@ -247,6 +253,7 @@
 			children = (
 				169599E3282629F000AFAB8A /* ScrollViewReaderDemo.swift */,
 				169E4CAF28814BC200718F32 /* ListGeometryReader.swift */,
+				16FC958E2D8C30D70089CE71 /* CompatibleScrollView.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -348,6 +355,8 @@
 				169E4C76288135D600718F32 /* PullToRefreshView.swift */,
 				166A0CDC28DAE3F300041653 /* DIYSegmentView.swift */,
 				16EC2EF028FFCA5A00A7A911 /* TextSelectionDemo.swift */,
+				16B95D972D95246100F689C2 /* SystemCameraView.swift */,
+				16B95D992D95248700F689C2 /* SystemCameraViewDemo.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -560,10 +569,12 @@
 				1610B0A22A9C9D1700C06522 /* AdvancedAnimation5_WordRain.swift in Sources */,
 				212B6B532324F42B0013AD90 /* PickerDemo.swift in Sources */,
 				16CC27C728C1FD9000A0513D /* NeumorphicButton.swift in Sources */,
+				16B95D982D95246100F689C2 /* SystemCameraView.swift in Sources */,
 				16325EEC26FC53BE004559AE /* Colorful.swift in Sources */,
 				16EC2EF128FFCA5A00A7A911 /* TextSelectionDemo.swift in Sources */,
 				169E4C8B2881385200718F32 /* ActivityIndicator.swift in Sources */,
 				216CC77F245426C000BCDF73 /* CoordinateSpace.swift in Sources */,
+				16B95D9A2D95248700F689C2 /* SystemCameraViewDemo.swift in Sources */,
 				212B6AF82320018B0013AD90 /* ListDemo.swift in Sources */,
 				21E8524F2316D0CA0093BCDF /* TextDemo.swift in Sources */,
 				16325EEB26FC53BE004559AE /* PointRandomization.swift in Sources */,
@@ -587,6 +598,7 @@
 				16325EEF26FC53D9004559AE /* ColorfulDemo.swift in Sources */,
 				212B6B482324D6030013AD90 /* NavigationHiddenDemo.swift in Sources */,
 				16325EED26FC53BE004559AE /* ColorfulView.swift in Sources */,
+				16FC958F2D8C30D70089CE71 /* CompatibleScrollView.swift in Sources */,
 				21C68372232801C500F60667 /* FormDemo.swift in Sources */,
 				21E8523C23158F140093BCDF /* ContentView.swift in Sources */,
 				212B6B462324A4580013AD90 /* NavigationViewDemo.swift in Sources */,
@@ -738,7 +750,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -746,8 +758,9 @@
 				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liaoworking.SwiftUI-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = YES;
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
@@ -765,7 +778,7 @@
 				DEVELOPMENT_TEAM = YG9MC8D2BK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Usage/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -773,8 +786,9 @@
 				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=100 -Xfrontend -warn-long-expression-type-checking=100";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liaoworking.SwiftUI-Usage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = YES;
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;

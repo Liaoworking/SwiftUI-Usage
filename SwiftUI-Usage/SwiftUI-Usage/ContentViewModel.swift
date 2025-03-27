@@ -39,6 +39,8 @@ struct ContentViewModel {
                     ListModel(title: "CoordinateSpace", nextView: AnyView( CoordinateSpace() )),
 //                    ListModel(title: "SnapCarousel", nextView: AnyView( SnapCarousel().environmentObject(UIStateModel()) )),
                     ListModel(title: "ToolBarItem(iOS14)", nextView: AnyView( ToolBarItemDemo() )),
+                      ListModel(title: "CustomScrollViewDemo", nextView: AnyView( CustomScrollViewDemo() )),
+                      ListModel(title: "SystemCameraViewDemo", nextView: AnyView( SystemCameraViewDemo() )),
                     ListModel(title: "UIKitInSwiftUIDemo", nextView: AnyView( UIKitInSwiftUIDemo() )),
                     ListModel(title: "ColorfulDemo", nextView: AnyView( ColorfulDemo() )),
                     ListModel(title: "SineWaveShapeDemo", nextView: AnyView( SineWaveShapeDemo() )),
@@ -61,6 +63,7 @@ struct ContentViewModel {
                       ListModel(title: "AdvancedAnimationPart5", nextView: AnyView( AdvancedAnimationPart5() )),
                       ListModel(title: "AdvancedAnimationPart4_TimelineView", nextView: AnyView( AdvancedAnimationPart4_TimelineView() )),
                       ListModel(title: "AdvancedAnimation5_WordRain", nextView: AnyView( AdvancedAnimation5_WordRain() )),
+                    ListModel(title: "PullToRefreshDemo", nextView: AnyView( PullToRefreshDemo() )),
     ]
 }
 
